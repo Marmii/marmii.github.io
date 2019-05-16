@@ -2,13 +2,13 @@
 
 header {
 	margin: 10px auto;
-	background-color: #848f96;
+	background-color: #fff;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
 	text-align: center;
 }
 header img {
-    width: 100px;
+    width: 200px;
 }
 header img, .headings {
 	display: inline-block;
@@ -23,7 +23,7 @@ header img, .headings {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
-    background-color: #848f96;
+    background-color: #fff;
     border: 1px solid #848f96;
     text-align: center;
     color: #4d9de0;
@@ -32,6 +32,6 @@ header img, .headings {
 }
 
 body {
-	background-color: #848f96;
+	background-color: #fff;
 }
 

@@ -1,10 +1,10 @@
 body {
-	background-color: #fff;
+	background-color: #848f96;
 }
 
 header {
 	margin: 10px auto;
-	background-color: #fff;
+	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
 	text-align: center;
@@ -15,5 +15,7 @@ header img, .headings {
 	vertical-align: middle;
     margin: 10px;
     color: #4d9de0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
 

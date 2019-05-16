@@ -1,6 +1,4 @@
-body {
-	background-color: #848f96;
-}
+
 
 header {
 	margin: 10px auto;
@@ -9,7 +7,9 @@ header {
 	box-shadow: 0 0 30px #777;
 	text-align: center;
 }
-
+header img {
+    width: 100px;
+}
 header img, .headings {
 	display: inline-block;
 	vertical-align: middle;
@@ -17,5 +17,21 @@ header img, .headings {
     color: #4d9de0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
+}
+
+.nav {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px;
+    background-color: #848f96;
+    border: 1px solid #848f96;
+    text-align: center;
+    color: #4d9de0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+body {
+	background-color: #848f96;
 }
 

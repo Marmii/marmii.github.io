@@ -10,15 +10,17 @@ header {
 header img {
     width: 200px;
 }
-header img, .headings, .motto {
+header img, .headings {
 	display: inline-block;
 	vertical-align: middle;
     margin: 10px;
     color: #4d9de0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 }
-
+.motto {
+    vertical-align: middle;
+    margin: 10px;
+}
 .nav {
     display: inline-block;
     vertical-align: middle;
@@ -34,4 +36,5 @@ header img, .headings, .motto {
 body {
 	background-color: #fff;
 }
+
 

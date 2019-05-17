@@ -1,11 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=open+sans);
 body {
     font-family: 'open sans', sans-serif;
+    background-color: #fff;
 }
 
 header {
 	margin: 10px auto;
-	background-color: #fff;
+	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
 	text-align: center;
@@ -35,10 +36,14 @@ header img, .headings {
 
 }
 
-body {
-	background-color: #fff;
+ul {
+    list-style: none;
 }
 
 a {
     color: #80ecff;
+}
+
+.headings {
+    text-align: center;
 }

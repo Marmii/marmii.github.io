@@ -20,6 +20,7 @@ header img, .headings {
     margin: 10px;
     color: #4d9de0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
 }
 .motto {
     vertical-align: middle;
@@ -42,8 +43,4 @@ ul {
 
 a {
     color: #80ecff;
-}
-
-.headings {
-    text-align: center;
 }

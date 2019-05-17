@@ -10,7 +10,7 @@ header {
 header img {
     width: 200px;
 }
-header img, .headings {
+header img, .headings, .motto {
 	display: inline-block;
 	vertical-align: middle;
     margin: 10px;

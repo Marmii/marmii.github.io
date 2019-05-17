@@ -1,4 +1,7 @@
-
+@import url(//fonts.googleapis.com/css?family=open+sans);
+body {
+    font-family: 'open sans', sans-serif;
+}
 
 header {
 	margin: 10px auto;
@@ -29,7 +32,6 @@ header img, .headings {
     border: 1px solid #848f96;
     text-align: center;
     color: #4d9de0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
@@ -37,4 +39,6 @@ body {
 	background-color: #fff;
 }
 
-
+a {
+    color: #80ecff;
+}

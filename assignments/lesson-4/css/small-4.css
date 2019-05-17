@@ -26,19 +26,19 @@ header img, .headings {
     vertical-align: middle;
     margin: 10px;
 }
+ul {
+    list-style: none;
+}
+
 .nav {
     display: inline-block;
     vertical-align: middle;
     margin: 10px;
-    background-color: #fff;
+    background-color: #848f96;
     border: 1px solid #848f96;
     text-align: center;
     color: #4d9de0;
 
-}
-
-ul {
-    list-style: none;
 }
 
 a {

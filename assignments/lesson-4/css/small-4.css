@@ -4,13 +4,15 @@ body {
     background-color: #fff;
 }
 
-.mainheading {
+.mainheading, .mottoheading {
     color:white;
+    display: inline-block;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    
 }
 
-.mottoheading {
-    color:white;
-}
+
 header {
 	margin: 10px auto;
 	background-color: #848f96;
@@ -20,8 +22,10 @@ header {
 }
 header img {
     width: 200px;
+    vertical-align: left;
 }
-header img, .headings {
+
+.headings {
 	display: inline-block;
 	vertical-align: middle;
     margin: 10px;
@@ -37,7 +41,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 60px;
+    width: 100px;
     background-color: #7ddf64;
 }
 li a {

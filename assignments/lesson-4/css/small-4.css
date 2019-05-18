@@ -4,6 +4,13 @@ body {
     background-color: #fff;
 }
 
+.mainheading {
+    color:white;
+}
+
+.mottoheading {
+    color:white;
+}
 header {
 	margin: 10px auto;
 	background-color: #848f96;

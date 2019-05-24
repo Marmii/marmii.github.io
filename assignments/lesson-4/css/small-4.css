@@ -36,12 +36,12 @@ header img {
     vertical-align: middle;
     margin: 10px;
 }
-/*ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100%;
-}*/
+}
 li a {
     display: block;
     color: #94ffb0;
@@ -58,7 +58,7 @@ li a:hover {
     color:white;
 }
 
-/*.nav {
+.nav {
     display: inline-block;
     width: 100%;
     vertical-align: middle;
@@ -69,7 +69,7 @@ li a:hover {
     text-align: center;
     color: #4d9de0;
 
-}*/
+}
 
 a {
     color: #80ecff;

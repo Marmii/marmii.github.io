@@ -1,27 +1,43 @@
-@import url(//fonts.googleapis.com/css?family=open+sans);
+@media screen and (max-width: 600px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swapLinks to an external site.');
 body {
     font-family: 'open sans', sans-serif;
     background-color: #fff;
 }
 
-.mainheading, .mottoheading {
+.mainheading {
+    text-align: right;
     color:white;
     display: inline-block;
     margin: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 2px, 2px, hsl(204, 5%, 39%);
+}
+
+.mottoheading {
+    text-align: right;
+    color: black;
+    display: inline-block;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
-	margin: 10px auto;
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
 	text-align: center;
 }
 header img {
-    width: 200px;
-    vertical-align: left;
+    float: left;
+    width: 80px;
+    margin: 10px;
+    box-shadow: 5px;
 }
 
 .headings {
@@ -30,56 +46,55 @@ header img {
     margin: 10px;
     color: #4d9de0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    text-align: left;
 }
 .motto {
     vertical-align: middle;
-    margin: 10px;
+    text-align: center;
 }
 ul {
-    position: fixed;
-    top: 0;
     list-style-type: none;
-    margin: 0;
     padding: 0;
-    width: 100px;
-    background-color: #7ddf64;
-    border: 1px solid black;
+    width: 100%;
 }
 li a {
     display: block;
-    color: #94ffb0;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
-li {
-    text-align: center;
-    border-bottom: 1px solid black;
-}
-
 li a:hover {
     background-color: #555;
     color: #848f96;
 }
-li:last-child {
-    border-bottom:none;
-}
-li a.active {
+
+.active {
     background-color:#4caf50;
     color:white;
 }
 
 .nav {
     display: inline-block;
+    width: 100%;
     vertical-align: middle;
     margin: 10px;
-    background-color: #848f96;
-    border: 1px solid #848f96;
+    background-color: hsl(204, 5%, 39%);
+    border: 1px solid black;
     text-align: center;
-    color: #4d9de0;
+    box-shadow: 0 0 30px #777;
 
 }
 
-a {
-    color: #80ecff;
+section img {
+    float: none;
+    width: 50%;
+    margin: 10px;
+    box-shadow: 5px;
+}
+
+article img {
+    float: none;
+    width: 50%;
+    margin: 10px;
+    box-shadow: 5px;
 }

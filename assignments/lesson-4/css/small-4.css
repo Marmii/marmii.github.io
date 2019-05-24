@@ -21,7 +21,7 @@ header {
 }
 header img {
     float: left;
-    width: 100px;
+    width: 80px;
 }
 
 .headings {
@@ -62,10 +62,10 @@ li a:hover {
     display: inline-block;
     width: 100%;
     vertical-align: middle;
-    padding: 10px;
     margin: 10px;
     background-color: hsl(204, 5%, 39%);
     border: 1px solid black;
     text-align: center;
+    box-shadow: 0 0 30px #777;
 
 }

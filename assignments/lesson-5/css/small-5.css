@@ -20,7 +20,7 @@ header {
 	text-align: center;
 }
 header img {
-    width: 100px;
+    width: 200px;
     vertical-align: left;
 }
 
@@ -36,40 +36,49 @@ header img {
     vertical-align: middle;
     margin: 10px;
 }
-/*ul {
+ul {
+    position: fixed;
+    top: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 100%;
-}*/
+    width: 100px;
+    background-color: #7ddf64;
+    border: 1px solid black;
+}
 li a {
     display: block;
     color: #94ffb0;
     padding: 8px 16px;
     text-decoration: none;
 }
+li {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
 li a:hover {
     background-color: #555;
     color: #848f96;
 }
-
-.active {
+li:last-child {
+    border-bottom:none;
+}
+li a.active {
     background-color:#4caf50;
     color:white;
 }
 
-/*.nav {
+.nav {
     display: inline-block;
-    width: 100%;
     vertical-align: middle;
-    padding: 10px;
     margin: 10px;
-    background-color: hsl(204, 5%, 39%);
-    border: 1px solid black;
+    background-color: #848f96;
+    border: 1px solid #848f96;
     text-align: center;
     color: #4d9de0;
 
-}*/
+}
 
 a {
     color: #80ecff;

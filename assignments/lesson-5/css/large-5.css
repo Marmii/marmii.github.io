@@ -43,7 +43,7 @@ header img {
 	display: inline-block;
 	vertical-align: middle;
     margin: 10px;
-    color: #4d9de0;
+    color: #4d9ee0c0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
 }
@@ -102,4 +102,16 @@ article img {
     width: 50%;
     margin: 10px;
     box-shadow: 5px;
+}
+
+.herodiv {margin: 10 px auto;position:relative;}
+
+.stats {
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    background: #4d9ee0c0;
+    border: 1px solid #000;
+    padding 1.5rem;
+    box-shadow: 0 0 30px #fff;
 }

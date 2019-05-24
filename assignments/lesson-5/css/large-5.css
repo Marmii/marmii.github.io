@@ -104,14 +104,21 @@ article img {
     box-shadow: 5px;
 }
 
-.herodiv {margin: 10 px auto;position:relative;}
+.herodiv {
+    margin: 10 px auto;
+    position:relative;
+}
+.herodiv img {
+    width: 100%;
+
+}
 
 .stats {
     position: absolute;
     top: 25px;
-    right: 50px;
+    right: 300px;
     background: #4d9ee0c0;
     border: 1px solid #000;
-    padding 1.5rem;
+    padding: 1.5rem;
     box-shadow: 0 0 30px #fff;
 }

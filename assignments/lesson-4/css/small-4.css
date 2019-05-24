@@ -13,10 +13,11 @@ body {
 }
 
 header {
+    float: right;
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
-	text-align: right;
+	text-align: center;
 }
 header img {
     float: left;
@@ -33,8 +34,9 @@ header img {
     text-align: left;
 }
 .motto {
+    float: right;
     vertical-align: middle;
-    text-align: left;
+    text-align: center;
     color: #4d9de0;
 }
 ul {

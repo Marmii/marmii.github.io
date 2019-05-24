@@ -53,6 +53,7 @@ ul {
 }
 li a {
     display: inline;
+    padding: 8px;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
@@ -68,9 +69,7 @@ li a:hover {
 }
 
 .nav {
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle;
+    display: inline;
     margin: 10px;
     background-color: hsl(204, 5%, 39%);
     border: 1px solid black;

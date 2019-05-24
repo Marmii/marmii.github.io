@@ -112,7 +112,7 @@ article img {
 .stats {
     position: absolute;
     top: 25px;
-    left: 10px;
+    right: 900px;
     background: #4d9ee0c0;
     border: 1px solid #000;
     padding: 1.5rem;

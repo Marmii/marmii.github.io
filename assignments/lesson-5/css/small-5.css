@@ -93,3 +93,6 @@ article img {
     margin: 10px;
     box-shadow: 5px;
 }
+nav {
+    display:none;
+}

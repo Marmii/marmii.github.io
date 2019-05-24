@@ -4,16 +4,24 @@ body {
     background-color: #fff;
 }
 
-.mainheading, .mottoheading {
+.mainheading {
+    text-align: right;
     color:white;
     display: inline-block;
     margin: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     
 }
 
+.mottoheading {
+    text-align: right;
+    color: #4d9de0;
+    display: inline-block;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 header {
-    float: right;
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
@@ -34,10 +42,8 @@ header img {
     text-align: left;
 }
 .motto {
-    float: right;
     vertical-align: middle;
     text-align: center;
-    color: #4d9de0;
 }
 ul {
     list-style-type: none;

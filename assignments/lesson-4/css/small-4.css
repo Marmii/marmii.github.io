@@ -13,7 +13,6 @@ body {
 }
 
 header {
-	margin: 10px auto;
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
@@ -34,12 +33,10 @@ header img {
 }
 .motto {
     vertical-align: middle;
-    margin: 10px;
     text-align: left;
 }
 ul {
     list-style-type: none;
-    margin: 10px auto;
     padding: 0;
     width: 100%;
 }

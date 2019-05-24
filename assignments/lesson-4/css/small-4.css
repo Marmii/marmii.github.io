@@ -30,11 +30,12 @@ header img {
     margin: 10px;
     color: #4d9de0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
+    text-align: left;
 }
 .motto {
     vertical-align: middle;
     margin: 10px;
+    text-align: left;
 }
 ul {
     list-style-type: none;

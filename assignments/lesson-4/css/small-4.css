@@ -20,8 +20,8 @@ header {
 	text-align: center;
 }
 header img {
+    float: left;
     width: 100px;
-    vertical-align: left;
 }
 
 .headings {
@@ -38,13 +38,13 @@ header img {
 }
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 10px auto;
     padding: 0;
     width: 100%;
 }
 li a {
     display: block;
-    color: #94ffb0;
+    color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -69,8 +69,4 @@ li a:hover {
     text-align: center;
     color: #4d9de0;
 
-}
-
-a {
-    color: #80ecff;
 }

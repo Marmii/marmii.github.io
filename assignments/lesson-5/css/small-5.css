@@ -65,7 +65,7 @@ li a:hover {
 
 .active {
     background-color:#4caf50;
-    color:white;
+    color:#848f96;
 }
 
 .nav {
@@ -92,11 +92,4 @@ article img {
     width: 90%;
     margin: 10px;
     box-shadow: 0 0 30px #777;
-}
-nav {
-    display:none;
-}
-
-table {
-    display:none;
 }

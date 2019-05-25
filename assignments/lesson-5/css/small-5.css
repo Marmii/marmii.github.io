@@ -96,3 +96,7 @@ article img {
 nav {
     display:none;
 }
+
+.container .container2 {
+    display:none;
+}

@@ -30,7 +30,7 @@ header {
 }
 header img {
     float: left;
-    width: 40%;
+    width: 20%;
     margin: 10px;
     box-shadow: 0 0 30px #777;
 }
@@ -121,6 +121,10 @@ article img {
 
 .summary {
     color: black;
+}
+
+.colorrun {
+    float: left;
 }
 
 @media screen and (min-width: 600px) {

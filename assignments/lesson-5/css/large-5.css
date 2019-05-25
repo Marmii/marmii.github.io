@@ -135,8 +135,8 @@ table {
     table-layout: auto;
     background-color: #4d9ee0c0;
     color: black;
-    margin-right: auto;
-    margin-left: auto;
+    margin-left: 15%;
+    margin-right: 15%;
     border-collapse: collapse;
     width: 180px;
 }

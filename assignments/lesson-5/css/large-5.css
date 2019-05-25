@@ -141,7 +141,7 @@ table {
     padding: 1 rem;
     margin: 1em 1.6em;
     border-collapse: collapse;
-    width: 50%;
+    width: 180px;
 }
 
 th {
@@ -152,7 +152,7 @@ th {
  }
 
 .forecast {
-    font-size: 12em;
+    font-size: 1em;
     color: black;
 }
 @media screen and (min-width: 600px) {

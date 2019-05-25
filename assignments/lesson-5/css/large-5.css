@@ -26,12 +26,14 @@ header {
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
-	text-align: center;
+    text-align: center;
+    height: 20%;
 }
 header img {
     float: left;
     width: 20%;
-    margin: 10px;
+    height: 20%
+    margin: 20px;
     box-shadow: 0 0 30px #777;
 }
 
@@ -127,7 +129,7 @@ article img {
     float: left;
 }
 
-.container {
+thead {
     background-color: #4d9ee0c0;
     display: flex;
     flex-direction: row;
@@ -136,10 +138,11 @@ article img {
     color: black;
     padding: 1 rem;
     margin: 10px;
+    border: 1px solid black;
 
 }
 
-.container2 img {
+tbody {
     background-color: white;
     display: flex;
     flex-direction: row;

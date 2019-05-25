@@ -127,14 +127,6 @@ article img {
     float: left;
 }
 
-.heading5 {
-    display: inline-block;
-	vertical-align: middle;
-    color: #4d9ee0c0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-}
-
 table, td, th {
     border: 1px solid black;
 }
@@ -143,8 +135,8 @@ table {
     table-layout: auto;
     background-color: #4d9ee0c0;
     color: black;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
     border-collapse: collapse;
     width: 180px;
 }

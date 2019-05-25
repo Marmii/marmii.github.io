@@ -11,7 +11,6 @@ body {
     display: inline-block;
     margin: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-shadow: 2px, 2px, hsl(204, 5%, 39%);
 }
 
 .mottoheading {
@@ -33,7 +32,7 @@ header img {
     float: left;
     width: 40%;
     margin: 10px;
-    box-shadow: 5px;
+    box-shadow: 0 0 30px #777;
 }
 
 .headings {
@@ -91,18 +90,18 @@ div img {
     float: none;
     width: 50%;
     margin: 10px;
-    box-shadow: 5px;
+    box-shadow: 0 0 30px #777;
 }
 
 article img {
     float: right;
     width: 50%;
     margin: 10px;
-    box-shadow: 5px;
+    box-shadow: 0 0 30px #777;
 }
 
 .herodiv {
-    margin: 10 px auto;
+    margin: 10px auto;
     position:relative;
 }
 .herodiv img {
@@ -129,3 +128,4 @@ article img {
         float: none;
         width: 100%;
     }
+}

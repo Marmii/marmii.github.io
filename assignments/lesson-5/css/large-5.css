@@ -31,7 +31,7 @@ header {
 }
 header img {
     float: left;
-    width: 80px;
+    width: 40%;
     margin: 10px;
     box-shadow: 5px;
 }
@@ -87,7 +87,7 @@ li a:hover {
 
 }
 
-section img {
+div img {
     float: none;
     width: 50%;
     margin: 10px;
@@ -95,7 +95,7 @@ section img {
 }
 
 article img {
-    float: none;
+    float: right;
     width: 50%;
     margin: 10px;
     box-shadow: 5px;

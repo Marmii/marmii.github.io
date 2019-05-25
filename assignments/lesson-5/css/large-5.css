@@ -5,7 +5,7 @@
         width: 100%;
     }
 }
-/*
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swapLinks to an external site.');
 body {
     font-family: 'open sans', sans-serif;
@@ -82,7 +82,7 @@ li a:hover {
     background-color: hsl(214, 9%, 84%);
     color:black;
 }
-*/
+
 .nav {
     display: inline;
     margin: 10px;

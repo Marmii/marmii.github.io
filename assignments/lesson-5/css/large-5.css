@@ -128,6 +128,10 @@ article img {
     float: left;
 }
 
+table, td, th {
+    border: 1px solid black;
+}
+
 table {
     background-color: #4d9ee0c0;
     display: flex;
@@ -137,21 +141,16 @@ table {
     color: black;
     padding: 1 rem;
     margin: 1em 1.6em;
-    border: 1px solid black;
-    max-width: 50%;
-
+    border-collapse: collapse;
+    width: 50%;
 }
 
-tbody {
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: no wrap;
-    justify-content: space-between;
-    color: black;
-    padding: 1 rem;
-    margin: 10px;
+th {
+    height: 50px;
 }
+ td {
+     height: 40px;
+ }
 
 .forecast {
     font-size: 12em;

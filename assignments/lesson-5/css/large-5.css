@@ -74,14 +74,17 @@ table {
     color: black;
     border-collapse: collapse;
     width: 180px;
+    margin: 40%;
 }
 
 th {
     height: 50px;
+    width: 30px;
     background-color: #4d9ee0c0;
 }
  td {
      height: 40px;
+     width: 30px;
  }
 
 .forecast {

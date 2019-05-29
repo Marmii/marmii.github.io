@@ -72,7 +72,7 @@ li a:hover {
     display: inline-block;
     width: 100%;
     vertical-align: middle;
-    margin: 10px;
+    margin: 0;
     background-color: hsl(204, 5%, 39%);
     border: 1px solid black;
     text-align: center;

@@ -47,10 +47,7 @@ header img {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: left;
 }
-/*.motto {
-    vertical-align: middle;
-    text-align: center;
-}*/
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -113,3 +110,6 @@ article img {
     box-shadow: 0 0 30px #777;
 }
 
+.forecast {
+    display: none;
+}

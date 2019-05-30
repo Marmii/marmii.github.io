@@ -82,7 +82,7 @@ li a:hover {
 
 }
 
-div.stats {
+.stats {
     position: absolute;
     top: 25px;
     left: 25px;

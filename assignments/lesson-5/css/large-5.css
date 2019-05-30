@@ -96,8 +96,9 @@ th {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 30px;
  }
- 
+
 .forecast {
     font-size: 1em;
     color: black;

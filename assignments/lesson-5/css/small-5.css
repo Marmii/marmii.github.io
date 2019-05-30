@@ -27,7 +27,8 @@ header {
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
-	text-align: center;
+    text-align: center;
+    width: 100%;
 }
 header img {
     float: left;
@@ -107,4 +108,8 @@ article img {
     width: 90%;
     margin: 10px;
     box-shadow: 0 0 30px #777;
+}
+
+.forecast {
+    display: none;
 }

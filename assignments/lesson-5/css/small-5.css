@@ -48,18 +48,18 @@ header img {
     text-align: left;
 }
 
-ul {
+nav ul {
     list-style-type: none;
     padding: 0;
     width: 100%;
 }
-li a {
+nav li a {
     display: block;
     color: white;
     padding: 8px 16px;
     text-decoration: none;
 }
-li a:hover {
+nav li a:hover {
     background-color: #555;
     color: #848f96;
 }

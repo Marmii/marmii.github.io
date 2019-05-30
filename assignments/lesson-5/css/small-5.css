@@ -82,6 +82,11 @@ li a:hover {
 
 }
 
+.herodiv {
+    margin: 10px auto;
+    position: relative;
+}
+
 .stats {
     position: absolute;
     top: 25px;

@@ -54,14 +54,10 @@ article img {
     box-shadow: 0 0 30px #777;
 }
 
-.herodiv {
-    margin: 10px auto;
-    position:relative;
-}
-.herodiv img {
+/*.herodiv img {
     width: 100%;
 
-}
+}*/
 
 .heading5 {
     display: inline-block;

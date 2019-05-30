@@ -64,7 +64,7 @@ table, td, th {
     border: 1px solid black;
 }
 
-table {
+.container{
     table-layout: auto;
     color: black;
     border-collapse: collapse;

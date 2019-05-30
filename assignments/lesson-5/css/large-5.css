@@ -5,9 +5,16 @@
         width: 100%;
     }
 
-    .motto {
+    header {
         vertical-align: middle;
         text-align: center;
+
+    }
+    .mainheading {
+        font-size: 18px;
+    }
+    .motto {
+        font-size: 16px;
     }
 
     ul {

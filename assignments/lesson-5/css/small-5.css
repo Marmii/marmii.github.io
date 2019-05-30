@@ -29,6 +29,7 @@ header {
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
     text-align: center;
+    font-size: 14px;
     
 }
 header img {
@@ -40,7 +41,7 @@ header img {
 
 .headings {
 	display: inline-block;
-	vertical-align: middle;
+	vertical-align: center;
     margin: 10px;
     color: #4d9de0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -112,6 +113,3 @@ article img {
     box-shadow: 0 0 30px #777;
 }
 
-.forecast {
-    display: none;
-}

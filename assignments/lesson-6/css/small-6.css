@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swapLinks to an external site.');
+
 body {
     font-family: 'open sans', sans-serif;
     background-color: #fff;
+    margin: 0 0 0 2%;
 }
 
 .mainheading {

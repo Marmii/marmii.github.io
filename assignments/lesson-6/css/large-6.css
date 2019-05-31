@@ -20,11 +20,11 @@
         display:none;
     }
 
-    nav ul {
+
+    .hide {
         margin: 2%;
         padding: 0;
         overflow: hidden;
-        background-color: #4d9ee0c0;
     }
     nav li {
         float: left;

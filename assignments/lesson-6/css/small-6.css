@@ -82,6 +82,26 @@ nav li a:hover {
     box-shadow: 0 0 30px #777;
 
 }
+.navigation {
+    list-style:none;
+    text-align:center;
+}
+.navigation li:first-child {
+    display:block;
+}
+.navigation li {
+    display:none;
+}
+.navigation a {
+    display:block; 
+    color: white;
+    padding: .75rem;
+    text-align: center;
+    text-decoration: none;
+}
+.responsive li {
+    display:block;
+}
 /*---------banner section----------*/
 .herodiv {
     /*margin: 2% auto;*/

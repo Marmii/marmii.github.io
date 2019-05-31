@@ -71,16 +71,19 @@
 
     </main>
     <footer>
-        <date onload="currentDate();"></date>
         <address>
             Contact Information
             <img src="https://marmii.github.io/assignments/lesson-6/images/idaho-map.jpg" alt="Preston Area Map">
         </address>
         <p>&copy; 2019 Miriam Sagers, Utah, USA
             <a href="#">Terms of Use</a>
+            <span id="today"></span>
         </p>
     </footer>
-    <script src="https://marmii.github.io/assignments/lesson-6/js/currentdate.js"></script>
+    <script src="https://marmii.github.io/assignments/lesson-6/js/currentdate.js">
+    var date = currentDate();
+    document.getElementById("today").innerHTML = currentDate();
+    </script>
 
     
 

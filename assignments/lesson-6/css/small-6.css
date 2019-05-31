@@ -84,7 +84,7 @@ nav li a:hover {
 }
 /*---------banner section----------*/
 .herodiv {
-    margin: 2% auto;
+    /*margin: 2% auto;*/
     position: relative;
     width: 100%
 }

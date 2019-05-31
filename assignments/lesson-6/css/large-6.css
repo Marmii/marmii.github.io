@@ -16,6 +16,9 @@
     .motto {
         font-size: 30px;
     }
+    .navigation li:first-child {
+        display:none;
+    }
 
     nav ul {
         margin: 0;

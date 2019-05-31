@@ -100,8 +100,8 @@ nav li a:hover {
     text-align: center;
     text-decoration: none;
 }
-.responsive li {
-    display:block;
+nav ul.hide {
+    display:none;
 }
 /*---------banner section----------*/
 .herodiv {
@@ -144,6 +144,8 @@ article img {
 time {
     display: left;
 }
+
+
 
 .clearfix:after {
     content:"";

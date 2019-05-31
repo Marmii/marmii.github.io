@@ -35,10 +35,12 @@
         padding: .6rem 1rem;
     } 
 
-.nav {
-    display: inline;
-}
-
+    nav {
+        display: inline;
+    }
+    nav ul.hide {
+        display: block;
+    }
 
 div img {
     float: none;

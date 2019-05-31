@@ -11,7 +11,7 @@ function currentDate() {
     var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
 var today = document.getElementById("today");
-today.textContent = " " +dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +year+ " ";
-today.innerText = " " +dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +year+ " ";
+today.textContent = "" +dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +year;
+today.innerText = "" +dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +year;
 }
 currentDate();

@@ -100,9 +100,7 @@ nav li a:hover {
     text-align: center;
     text-decoration: none;
 }
-nav ul.hide {
-    display:none;
-}
+
 /*---------banner section----------*/
 .herodiv {
     /*margin: 2% auto;*/

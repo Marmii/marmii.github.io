@@ -2,7 +2,7 @@
 @media (min-width: 600px) {
     .nav a {
         float: none;
-        width: 100%;
+       /* width: 100%;*/
     }
 
     header {
@@ -51,6 +51,7 @@ div img {
 
 article img {
     float: right;
+    clear: right;
     width: 50%;
     margin: 10px;
     box-shadow: 0 0 30px #777;

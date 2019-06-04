@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swapLinks to an external site.');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swapLinks');
 
 body {
     font-family: 'open sans', sans-serif;
@@ -133,6 +133,10 @@ article img {
     width: 50%;
     margin: 10px;
     box-shadow: 0 0 30px #777;
+}
+
+article {
+    padding: 2px;
 }
 
 .forecast {

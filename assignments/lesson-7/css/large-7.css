@@ -21,13 +21,15 @@
     }
 
 
-    .hide {
+    .navigation {
+        flex-direction: row;
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
     nav li {
-        float: left;
+        display: block;
+        flex: 1 1 auto;
     }
 
     nav li a {
@@ -38,10 +40,13 @@
     nav {
         display: inline;
     }
-    nav ul.hide {
+    nav ul.navigation {
         display: block;
     }
-
+    .main {
+        flex-direction: row;
+    }
+    
 div img {
     float: none;
     width: 100%;

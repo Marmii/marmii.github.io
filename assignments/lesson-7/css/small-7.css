@@ -105,6 +105,14 @@ nav li a:hover {
 .responsive li {
     display: block;
 }
+
+/* ---------main section---------- */
+
+.main {
+    display: flex;
+    flex-direction: column:
+    margin: 1rem auto;
+}
 /*---------banner section----------*/
 .herodiv {
     /*margin: 2% auto;*/

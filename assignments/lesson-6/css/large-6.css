@@ -21,7 +21,7 @@
     }
 
 
-    .hide {
+    .navigation {
         margin: 0;
         padding: 0;
         overflow: hidden;
@@ -38,7 +38,7 @@
     nav {
         display: inline;
     }
-    nav ul.hide {
+    nav ul.navigation {
         display: block;
     }
 

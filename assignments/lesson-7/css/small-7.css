@@ -66,17 +66,12 @@ nav li a {
     background-color: rgba(0,0,0,0.4);
     color:#848f96;
 }
-nav li a:hover {
-    background-color: rgba(0,0,0,0.4);
-    color: #848f96;
-}
-
 
 .nav {
-    display: inline-block;
+    display: flex;
     width: 100%;
     vertical-align: middle;
-    margin: 0;
+    margin: 1rem auto;
     background-color: hsl(204, 5%, 39%);
     border: 1px solid black;
     text-align: center;
@@ -86,14 +81,16 @@ nav li a:hover {
 .navigation {
     list-style:none;
     text-align:center;
-}
-.navigation li:first-child {
-    display:block;
+    flex-direction: column;
 }
 .navigation li {
     display:none;
 }
-.navigation a {
+.navigation li:first-child {
+    display:block;
+}
+
+.navigation li a {
     display:block; 
     color: white;
     padding: .75rem;
@@ -101,6 +98,13 @@ nav li a:hover {
     text-decoration: none;
 }
 
+nav li a:hover {
+    background-color: rgba(0,0,0,0.4);
+    color: #848f96;
+}
+.responsive li {
+    display: block;
+}
 /*---------banner section----------*/
 .herodiv {
     /*margin: 2% auto;*/

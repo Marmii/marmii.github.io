@@ -100,6 +100,9 @@ nav li a:hover {
     text-align: center;
     text-decoration: none;
 }
+.responsive li {
+    display: block;
+}
 
 /*---------banner section----------*/
 .herodiv {

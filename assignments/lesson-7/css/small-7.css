@@ -6,6 +6,9 @@ body {
     background-color: #fff;
 }
 /*--------------header--------------*/
+.header {
+    display: flex;
+}
 .mainheading {
     text-align: right;
     color:white;

@@ -24,14 +24,14 @@
     }
 
     .navigation {
-        flex-direction: row;
+        /*flex-direction: row;*/
         margin: 0;
         padding: 0;
         overflow: hidden;
     }
     nav li {
         display: block;
-        flex: 1 1 auto;
+        /*flex: 1 1 auto;*/
     }
 
     nav li a {
@@ -46,7 +46,7 @@
         display: block;
     }
     .main {
-        flex-direction: row;
+        /*flex-direction: row;*/
     }
     
 div img {

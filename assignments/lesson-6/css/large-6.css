@@ -19,7 +19,9 @@
     .navigation li:first-child {
         display:none;
     }
-
+    .navigation li {
+        display: inline;
+    }
 
     .navigation {
         margin: 0;
@@ -28,7 +30,6 @@
     }
     nav li {
         float: left;
-        display: inline;
     }
 
     nav li a {

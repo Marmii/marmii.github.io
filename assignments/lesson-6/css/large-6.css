@@ -28,16 +28,13 @@
     }
     nav li {
         float: left;
+        display: inline;
     }
 
     nav li a {
         text-align: center;
         padding: .6rem 1rem;
     } 
-
-    nav {
-        display: inline;
-    }
     nav ul.navigation {
         display: block;
     }

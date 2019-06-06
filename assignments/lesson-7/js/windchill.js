@@ -1,0 +1,7 @@
+/*Input: Get temp and windspeed*/
+let t = parseInt(document.getElementById('temp').innerHTML);
+let s = parseInt(document.getElementById('windspeed').innerHTML);
+/*Processing: compute wind chill*/
+var f = 35.74 + .6215 * t - 35.75 * Math.pow(windspeed, .16) + .4275 * t * Math.pow(windspeed, .16);
+/*Output: wind chill rounded to whole number*/
+document.getElementById('output').innerHTML = f;

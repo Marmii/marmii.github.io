@@ -37,10 +37,11 @@
             <section class="stats">
                 <h3 class="summary">Weather Summary</h3>
                         <p>Currently: Sunny</p>
-                        <p>Temperature: 76&#8457;</p>
+                        <p>Temperature: <span id="temp">76</span>&#8457;</p>
                         <p>Humidity: 5%</p>
                         <p>Precipitation: 0 </p>
-                        <p>Wind Speed: 5 mph</p>
+                        <p>Wind Speed: <span id="windspeed">5</span>mph</p>
+                        <p id="output">Wind Chill: </p>
             </section>
         </div>
     <section class="forecast">
@@ -84,6 +85,7 @@
     document.getElementById("today").innerHTML = currentDate();
     </script>
     <script src="https://marmii.github.io/assignments/lesson-7/js/hamburger.js"></script>
+    <script src="https://marmii.github.io/assignments/lesson-7/js/windchill.js"></script>
 
     
 

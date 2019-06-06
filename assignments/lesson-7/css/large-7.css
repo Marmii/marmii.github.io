@@ -16,10 +16,12 @@
     .motto {
         font-size: 30px;
     }
-    .menubutton {
+    .navigation li:first-child {
         display:none;
     }
-
+    .navigation li {
+        display: inline;
+    }
 
     .navigation {
         flex-direction: row;

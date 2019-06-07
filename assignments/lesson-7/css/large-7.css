@@ -44,7 +44,8 @@
         display: block;
     }
     .main {
-        /*flex-direction: row;*/
+        display: flex;
+        flex-wrap: wrap;
     }
     
 div img {
@@ -77,11 +78,12 @@ table, td, th {
 }
 
 .container{
+    display: flex;
+    flex-flow: column no-wrap;
+    text-align: center;
+    box-sizing:border-box;
     margin: 1rem auto; 
-    display:grid; 
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    max-width: 800px;
-    /*table-layout: auto;*/
+    max-width: 80%;
     color: black;
     border-collapse: collapse;
     /*width: 180px;

@@ -180,3 +180,8 @@ time {
     row-gap: 2px;
 
 }
+
+main.gallery figure figcaption {
+    text-align: center;
+    font-size: 1rem;
+}

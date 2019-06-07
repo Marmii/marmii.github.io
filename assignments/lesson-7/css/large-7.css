@@ -80,7 +80,7 @@ table, td, th {
 
 .container{
     display: flex;
-    flex-flow: column no-wrap;
+    flex-flow: column;
     text-align: center;
     box-sizing:border-box;
     margin: 1rem auto; 

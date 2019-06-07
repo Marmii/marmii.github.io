@@ -1,5 +1,5 @@
 
-@media (min-width: 600px) {
+@media (min-width: 1024px) {
     .nav a {
         float: none;
        /* width: 100%;*/
@@ -70,6 +70,7 @@ article img {
     color: #4d9ee0c0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
+    font-size: 60px;
     
 }
 
@@ -111,7 +112,7 @@ th {
  }
 
 .forecast {
-    font-size: 1em;
+    font-size: 2em;
     color: black;
 }
 .colorrun {

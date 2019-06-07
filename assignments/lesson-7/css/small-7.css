@@ -6,9 +6,6 @@ body {
     background-color: #fff;
 }
 /*--------------header--------------*/
-.header {
-    display: flex;
-}
 .mainheading {
     text-align: right;
     color:white;
@@ -28,7 +25,7 @@ body {
 
 .header {
     width: 100%;
-    display: inline-block;
+    display: flex;
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;

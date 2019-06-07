@@ -160,25 +160,15 @@ time {
     display: left;
 }
 
-
-
 .clearfix:after {
     content:"";
     display:table;
     clear: both;
 }
 
-.gallery {
-    display:grid;
-    grid-template-rows: repeat(6, 2fr);
-    grid-auto-columns: 200px;
-    grid-auto-rows: 180px;
-    column-gap: 2px;
-    row-gap: 2px;
-
-}
-
-main.gallery figure figcaption {
+figcaption {
     text-align: center;
     font-size: 1rem;
 }
+
+

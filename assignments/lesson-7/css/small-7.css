@@ -26,7 +26,7 @@ body {
     text-align: center;
 }
 
-header {
+.header {
     width: 100%;
     display: inline-block;
 	background-color: #848f96;
@@ -173,8 +173,7 @@ time {
 
 .gallery {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 2fr 2fr;
+    grid-template-rows: repeat(6, 2fr);
     grid-auto-columns: 200px;
     grid-auto-rows: 180px;
     column-gap: 2px;

@@ -30,7 +30,7 @@
         overflow: hidden;
     }
     nav li {
-        display: block;
+        float: left;
         /*flex: 1 1 auto;*/
     }
 
@@ -39,9 +39,6 @@
         padding: .6rem 1rem;
     } 
 
-    nav {
-        display: inline;
-    }
     nav ul.navigation {
         display: block;
     }

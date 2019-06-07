@@ -112,6 +112,7 @@ th {
  }
 
 .forecast {
+    display:inline;
     font-size: 2em;
     color: black;
 }

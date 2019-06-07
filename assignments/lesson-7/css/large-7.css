@@ -121,7 +121,7 @@ th {
 
 .gallery {
     display:grid;
-    grid-template-rows: repeat(6, 2fr);
+    grid-template-rows: repeat(2, 2fr);
     grid-auto-columns: 200px;
     grid-auto-rows: 180px;
     column-gap: 2px;

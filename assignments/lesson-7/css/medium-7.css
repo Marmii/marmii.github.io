@@ -11,10 +11,14 @@
 
     }
     .mainheading {
-        font-size: 40px;
+        font-size: 30px;
     }
     .motto {
-        font-size: 30px;
+        font-size: 20px;
+    }
+    header img {
+        max-width: 20%;
+        max-height: 120px;
     }
     .navigation li:first-child {
         display:none;

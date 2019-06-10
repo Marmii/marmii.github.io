@@ -16,6 +16,11 @@
     .motto {
         font-size: 30px;
     }
+
+    header img {
+        max-width: 180px;
+        max-height: 180px;
+    }
     .navigation li:first-child {
         display:none;
     }

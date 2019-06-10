@@ -26,6 +26,7 @@ body {
 .header {
     width: 100%;
     display: flex;
+    justify-content: flex-start;
 	background-color: #848f96;
 	border: 1px solid #848f96;
 	box-shadow: 0 0 30px #777;
@@ -36,7 +37,8 @@ body {
 header img {
     flex:auto;
     float: left;
-    width: 10%;
+    max-width: 12%;
+    max-height: 80px;
     margin-left: 10%;
     box-shadow: 0 0 30px #777;
 }

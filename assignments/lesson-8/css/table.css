@@ -29,7 +29,7 @@ tr:nth-child(even) {
     background-color:#e7ffed;
 }
 
-thead:nth-child(even) {
+.secondheading {
     background-color:#628ca6;
     color: white;
 }

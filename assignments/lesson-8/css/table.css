@@ -16,12 +16,10 @@ table, th, td {
     padding: 5px;
 }
 tfoot {
-    display: table-footer-group;
-    vertical-align: middle;
-    border-color: inherit;
     font-size: 10px;
+}
+tfoot>td {
     background-color: #7fb9c2;
-    
 }
 
 tr:nth-child(odd) {
@@ -35,7 +33,7 @@ th:first-child {
     background-color: #7fb9c2; 
     line-height:30px;  
 }
-th:nth-child(even) {
+thead:nth-child(even) {
     background-color:#628ca6;
     color: white;
 }

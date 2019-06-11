@@ -18,7 +18,7 @@ table, th, td {
 tfoot {
     font-size: 10px;
 }
-tfoot>td {
+tfoot>tr>td {
     background-color: #7fb9c2;
 }
 
@@ -29,14 +29,15 @@ tr:nth-child(even) {
     background-color:#e7ffed;
 }
 
-th:first-child {
-    background-color: #7fb9c2; 
-    line-height:30px;  
-}
 thead:nth-child(even) {
     background-color:#628ca6;
     color: white;
 }
+th:first-child {
+    background-color: #7fb9c2; 
+    line-height:30px;  
+}
+
 
 .novsalesgoal {
     background-color:#628ca6

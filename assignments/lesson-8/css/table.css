@@ -9,18 +9,19 @@ table {
 }
 table, th, td {
     border: 1px solid #d9ded9;
-    width: 100%;
+    width: 40%;
     height: 50%;
     text-align: center;
     vertical-align: center;
-
-
+    padding: 5px;
 }
 tfoot {
     display: table-footer-group;
     vertical-align: middle;
     border-color: inherit;
     font-size: 10px;
+    background-color: #7fb9c2;
+    
 }
 
 tr:nth-child(odd) {
@@ -30,7 +31,7 @@ tr:nth-child(even) {
     background-color:#e7ffed;
 }
 
-thead:first-child, tfoot {
+th:first-child {
     background-color: #7fb9c2;   
 }
 

@@ -4,3 +4,12 @@ body {
     font-family: Ubuntu, sans-serif;
 
 }
+
+.acme {
+    
+}
+tfoot {
+    display: table-footer-group;
+    vertical-align: middle;
+    border-color: inherit;
+}

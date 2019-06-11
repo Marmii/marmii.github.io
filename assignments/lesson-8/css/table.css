@@ -9,7 +9,7 @@ table {
 }
 table, th, td {
     border: 1px solid #d9ded9;
-    width: 40%;
+    width: 20%;
     height: 50%;
     text-align: center;
     vertical-align: center;
@@ -32,13 +32,13 @@ tr:nth-child(even) {
 }
 
 th:first-child {
-    background-color: #7fb9c2;   
+    background-color: #7fb9c2; 
+    line-height:30px;  
 }
-
-tr>th {
+th:nth-child(even) {
     background-color:#628ca6;
-    color: white;   
-} 
+    color: white;
+}
 
 .novsalesgoal {
     background-color:#628ca6

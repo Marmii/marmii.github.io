@@ -6,6 +6,7 @@ body {
 }
 table {
     border-collapse: collapse;
+    box-shadow: 10px 10px 10px #5d86a4;
 }
 table, th, td {
     border: 1px solid #d9ded9;

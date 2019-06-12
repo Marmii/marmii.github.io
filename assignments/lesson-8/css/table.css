@@ -33,7 +33,7 @@ thead tr:nth-child(2){
     background-color:#628ca6;
     color: white;
 }
-thead th:first-child {
+thead tr:nth-child(1) {
     background-color: #7fb9c2; 
     line-height:30px;  
 }

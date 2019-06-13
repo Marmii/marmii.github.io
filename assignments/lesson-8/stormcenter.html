@@ -30,10 +30,15 @@
     </nav>
     <main class="main">
             <form action="/action_page.php" method="get">
+            <fieldset>
+                <legend>Resident Information</legend>
                 <label>Full Name:*<input type="text" name="fname" required min="5" pattern="[A-Za-z]{30}" title="Full Name"></label> 
                 <label>E-mail:<input type="text" name="email" placeholder="john.doe@domain.com"></label> 
                 <label>Phone Number:*<input type="tel" name="phn" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required></lable>
                 <label>Zip Code:* <input type="number" name="zip" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Storm Details</legend>
                 <label>Storm Date:<input type="date" name="stormdate"></label> 
                 <label>Storm type:<input name="type" list="stormtype"></label> 
                     <datalist id="stormtype">
@@ -56,6 +61,7 @@
                             <label><input type="radio" name="danger" value="no">No</label>
                             <label><input type="radio" name="danger" value="maybe">Maybe</label>
                 <label>Additional Information:<textarea id="info" rows="6" cols="50"></textarea></label> 
+            </fieldset>
                
             <input type="submit" value="Report Weather">
               </form>

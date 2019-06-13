@@ -138,4 +138,7 @@ th {
     row-gap: 2px;
 
 }
+form label.bottom {
+    padding: .4rem 0;
+}
 }

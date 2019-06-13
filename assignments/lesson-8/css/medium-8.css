@@ -127,6 +127,14 @@ th {
     box-shadow: 0 0 30px #777;
 }
 
+.gallery figure {
+    max-width: 300px;
+    max-height: 200px;
+}
+.gallery figure img{
+    max-width: 300px;
+}
+
 .gallery {
     display:grid;
     grid-template-rows: repeat(3, 2fr);

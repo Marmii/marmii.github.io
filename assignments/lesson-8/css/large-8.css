@@ -1,0 +1,141 @@
+
+@media (min-width: 800px) {
+    .nav a {
+        float: none;
+       /* width: 100%;*/
+    }
+
+    header {
+        vertical-align: middle;
+        text-align: center;
+
+    }
+    .mainheading {
+        font-size: 40px;
+    }
+    .motto {
+        font-size: 30px;
+    }
+
+    header img {
+        max-width: 180px;
+        max-height: 180px;
+    }
+    .navigation li:first-child {
+        display:none;
+    }
+    .navigation li {
+        display: inline;
+    }
+
+    .navigation {
+        flex-direction: row;
+        align-items: flex-start;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    nav li {
+        float: left;
+        /*flex: 1 1 auto;*/
+    }
+
+    nav li a {
+        text-align: center;
+        padding: .6rem 1rem;
+    } 
+
+    nav ul.navigation {
+        display: block;
+    }
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+div img {
+    float: none;
+    width: 100%;
+    margin: 0 0 0 2%;
+    box-shadow: 0 0 30px #777;
+}
+
+article img {
+    float: right;
+    clear: right;
+    width: 50%;
+    margin: 10px;
+    box-shadow: 0 0 30px #777;
+}
+
+.heading5 {
+    display: inline-block;
+	vertical-align: middle;
+    margin: 10px;
+    color: #4d9ee0c0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 60px;
+    
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    box-sizing:border-box;
+    margin: 1rem auto; 
+    max-width: 80%;
+    color: black;
+    border-collapse: collapse;
+    /*width: 180px;
+    margin-left: auto;
+    margin-right: auto;*/
+    
+}
+
+th {
+    height: 50px;
+    width: 30px;
+    background-color: #4d9ee0c0;
+}
+ td {
+     
+     height: 40px;
+     width: 30px;
+ }
+
+ td image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+ }
+
+.forecast {
+    display:inline;
+    font-size: 2em;
+    color: black;
+}
+.colorrun {
+    float: left;
+}
+.gallery figure:hover {
+    box-shadow: 0 0 30px #777;
+}
+
+.gallery {
+    display:grid;
+    grid-template-rows: repeat(2, 2fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-columns: 200px;
+    grid-auto-rows: 180px;
+    column-gap: 2px;
+    row-gap: 2px;
+
+}
+}

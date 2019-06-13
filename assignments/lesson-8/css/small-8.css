@@ -233,5 +233,8 @@ form label.top input:required {
 form label.top input:required:valid {
     border: black solid 2px;
 }
+#ratingvalue {
+    margin-left: 20px;
+}
 
 

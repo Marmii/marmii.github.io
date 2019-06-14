@@ -1,9 +1,6 @@
     
 /* || general styles */
-
-html {
-  font-family: 'helvetica neue', helvetica, arial, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css?family=Arvo');
 
 body {
   width: 800px;
@@ -11,7 +8,7 @@ body {
 }
 
 h1, h2 {
-  font-family: 'Faster One', cursive;
+  color: darkred;
 }
 
 /* header styles */

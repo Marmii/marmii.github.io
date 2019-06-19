@@ -242,6 +242,11 @@ section img {
 
 .preston .fishhaven .sodasprings {
     box-shadow: 0 0 30px #777;
+    background-color: #4d9ee0c0;
+    border: 3px solid #555;
+    border-radius: 5px 10px;
+    padding: 0 10px 0 10px;
+    margin: 2em 1em;
 }
 
 footer iframe {

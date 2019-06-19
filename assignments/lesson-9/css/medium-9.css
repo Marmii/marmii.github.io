@@ -123,9 +123,6 @@ th {
 .colorrun {
     float: left;
 }
-.gallery figure:hover {
-    box-shadow: 0 0 30px #777;
-}
 
 .gallery figure {
     max-width: 300px;

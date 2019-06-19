@@ -30,27 +30,12 @@
     </nav>
     <main class="home">
       <section class="preston">
-            <h2>Preston</h2>
-            <h3><em>Where the City meets the Mountains!</em></h3>
-            <h3>Year Founded:</h3>
-            <h3>Population:</h3>
-            <h3>Annual Rain Fall:</h3>
             <img src="https://marmii.github.io/assignments/lesson-9/images/preston.jpg" alt="view of Preston City from the air">
       </section>
       <section class="sodasprings">
-            <h2>Soda Springs</h2>
-            <h3><em>The Outdoors at Your Front Door!</em></h3>
-            <h3>Year Founded:</h3>
-            <h3>Population:</h3>
-            <h3>Annual Rain Fall:</h3>
             <img src="https://marmii.github.io/assignments/lesson-9/images/soda-springs.jpg" alt="View of Soda Springs, Idaho">
       </section>
         <section class="fishhaven">
-            <h2>Fish Haven</h2>
-            <h3><em>Our Little Piece of Heaven!</em></h3>
-            <h3>Year Founded:</h3>
-            <h3>Population:</h3>
-            <h3>Annual Rain Fall:</h3>
             <img src="https://marmii.github.io/assignments/lesson-9/images/fishhaven.jpg" alt="View of Fish Haven from the mountains">
       </section>
 
@@ -72,6 +57,34 @@
     <script src="https://marmii.github.io/assignments/lesson-7/js/hamburger.js"></script>
     <script src="https://marmii.github.io/assignments/lesson-7/js/windchill.js"></script>
     <script src="https://marmii.github.io/assignments/lesson-8/js/slider.js"></script>
+    <script>
+    var section = document.querySelector('section');
+    var requestURL= 'https://marmii.github.io/assignments/lesson-9/towndata.json';
+    var request= new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+
+    function townData(jsonObj) {
+  var towndata = jsonObj['towns'];
+      
+  for (var i = 0; i < towns.length; i++) {
+    var townName = document.createElement('h2');
+    var townMotto = document.createElement('h3');
+    var yearFounded = document.createElement('p');
+    var currentPopulation = document.createElement('p');
+    var averageRainfall = document.createElement('p');
+
+    townName.textContent = towns[i].name;
+    townMotto.textContent = '' + towns[i].motto;
+    yearFounded.textContent = 'Year Founded: ' + towns[i].yearFounded;
+    currentPopulation.textContent = 'Current Population: ' + towns[i].currentPopulation;
+    averageRainfall.textContent = 'Average Rainfall: ' + towns[i].averageRainfall;
+
+    }
+
+  }
+  </script>
     
 </body>
 </html>

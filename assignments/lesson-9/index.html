@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Storm Center</title>
+    <meta name="description" content="current weather conditions for the south-east idaho area">
+    <link rel="stylesheet" href="https://marmii.github.io/assignments/lesson-9/css/small-9.css">
+    <link rel="stylesheet" href="https://marmii.github.io/assignments/lesson-9/css/large-9.css">
+    <link rel="stylesheet" href="https://marmii.github.io/assignments/lesson-9/css/medium-9.css">
+</head>
+<body>
+    <header class="header">
+        <img src="https://marmii.github.io/assignments/lesson-4/images/weatherwatchlogo.jpg" alt="Weather Watch Logo">
+        <div class="topheadings">
+        <h1 class="mainheading">SE Idaho Weather Watch</h1><br>
+        <h2 class="motto">Weather where you are!</h2>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul class="navigation">
+            <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu();">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="https://marmii.github.io/assignments/lesson-7/preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li class="active"><a href="https://marmii.github.io/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://marmii.github.io/assignments/lesson-7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+      
+
+    </main>
+    <footer>
+        <address>
+            Contact Information
+            <img src="https://marmii.github.io/assignments/lesson-9/images/idaho-map.jpg" alt="Preston Area Map">
+        </address>
+        <p>&copy; 2019 Miriam Sagers, Utah, USA
+            <a href="#">Terms of Use</a>
+            <span id="today"></span>
+        </p>
+    </footer>
+    <script src="https://marmii.github.io/assignments/lesson-8/js/currentdate.js">
+    var date = currentDate();
+    document.getElementById("today").innerHTML = currentDate();
+    </script>
+    <script src="https://marmii.github.io/assignments/lesson-7/js/hamburger.js"></script>
+    <script src="https://marmii.github.io/assignments/lesson-7/js/windchill.js"></script>
+    <script src="https://marmii.github.io/assignments/lesson-8/js/slider.js"></script>
+    
+</body>
+</html>

@@ -230,13 +230,13 @@ form label.top input:required:valid {
     margin-left: 5px;
 }
 
-.home{
+.towninfo{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
 }
 
-section img {
+article img {
     max-width: 300px;
 }
 
@@ -246,4 +246,5 @@ section img {
 
 footer iframe {
     max-width: 180px;
+    max-height: 180px;
 }

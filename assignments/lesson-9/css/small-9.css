@@ -240,7 +240,7 @@ section img {
     max-width: 300px;
 }
 
-.preston .fishhaven .sodasprings {
+.preston, .fishhaven, .sodasprings {
     box-shadow: 0 0 30px #777;
     background-color: #4d9ee0c0;
     border: 3px solid #555;

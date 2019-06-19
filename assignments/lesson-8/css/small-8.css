@@ -237,4 +237,7 @@ form label.top input:required:valid {
     margin-left: 5px;
 }
 
-
+footer iframe {
+    max-width: 180px;
+    max-height: 180px;
+}

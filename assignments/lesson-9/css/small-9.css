@@ -136,13 +136,6 @@ nav li a:hover {
     color: black;
 }
 
-
-/*section img {
-    float: none;
-    width: 100%;
-    margin: 10px;
-}*/
-
 article img {
     float: none;
     width: 50%;
@@ -251,3 +244,6 @@ section img {
     box-shadow: 0 0 30px #777;
 }
 
+footer iframe {
+    max-width: 180px;
+}

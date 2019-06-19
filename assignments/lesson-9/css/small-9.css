@@ -237,4 +237,17 @@ form label.top input:required:valid {
     margin-left: 5px;
 }
 
+.home{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+section img {
+    max-width: 300px;
+}
+
+.preston .fishhaven .sodasprings {
+    box-shadow: 0 0 30px #777;
+}
 

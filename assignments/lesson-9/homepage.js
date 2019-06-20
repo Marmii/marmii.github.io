@@ -14,7 +14,7 @@ function showData(jsonObj) {
 var info = jsonObj['towns'];
   
 for (var i = 0; i < info.length; i++) {
-    if (i === 2) {
+    if (i === 5) {
         continue;}
 var myArticle = document.createElement('article');
 var myH2 = document.createElement('h2');

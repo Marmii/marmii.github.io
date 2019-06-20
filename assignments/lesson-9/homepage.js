@@ -24,7 +24,7 @@ var myPara2 = document.createElement('p');
 var myPara3 = document.createElement('p');
 var myImage = document.createElement('img');
 
-    if (name == preston) {
+    if (name == 'preston') {
         myH2.textContent = info[i].name;
         myH3.textContent = '' + info[i].motto;
         myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
@@ -42,7 +42,7 @@ var myImage = document.createElement('img');
 section.appendChild(myArticle);
     }
 
-    else if (name == soda springs) {
+    else if (name == 'soda springs') {
         myH2.textContent = info[i].name;
         myH3.textContent = '' + info[i].motto;
         myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
@@ -59,7 +59,7 @@ section.appendChild(myArticle);
 section.appendChild(myArticle);
     }
 
-    else if (name == fish haven) {
+    if (name == 'fish haven') {
         myH2.textContent = info[i].name;
         myH3.textContent = '' + info[i].motto;
         myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
@@ -77,6 +77,6 @@ section.appendChild(myArticle);
     }
 
 
-
+}
 
 }

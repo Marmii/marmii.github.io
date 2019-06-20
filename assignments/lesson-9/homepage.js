@@ -22,6 +22,7 @@ var myH3 = document.createElement('h3');
 var myPara1 = document.createElement('p');
 var myPara2 = document.createElement('p');
 var myPara3 = document.createElement('p');
+var myImage = document.createElement('img');
 
     if (name == preston) {
         myH2.textContent = info[i].name;
@@ -29,7 +30,16 @@ var myPara3 = document.createElement('p');
         myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
         myPara2.textContent = 'Current Population: ' + info[i].currentPopulation;
         myPara3.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
+        myImage.img.src = "https://marmii.github.io/assignments/lesson-9/preston.jpg";
 
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myH3);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myImage);
+
+section.appendChild(myArticle);
     }
 
     else if (name == soda springs) {
@@ -38,6 +48,15 @@ var myPara3 = document.createElement('p');
         myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
         myPara2.textContent = 'Current Population: ' + info[i].currentPopulation;
         myPara3.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
+    
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myH3);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myImage);
+
+section.appendChild(myArticle);
     }
 
     else if (name == fish haven) {
@@ -46,15 +65,18 @@ var myPara3 = document.createElement('p');
         myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
         myPara2.textContent = 'Current Population: ' + info[i].currentPopulation;
         myPara3.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
-    }
-
-myArticle.appendChild(myH2);
-myArticle.appendChild(myH3);
-myArticle.appendChild(myPara1);
-myArticle.appendChild(myPara2);
-myArticle.appendChild(myPara3);
+   
+        myArticle.appendChild(myH2);
+        myArticle.appendChild(myH3);
+        myArticle.appendChild(myPara1);
+        myArticle.appendChild(myPara2);
+        myArticle.appendChild(myPara3);
+        myArticle.appendChild(myImage);
 
 section.appendChild(myArticle);
+    }
+
+
 
 
 }

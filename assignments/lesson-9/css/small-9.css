@@ -230,7 +230,7 @@ form label.top input:required:valid {
     margin-left: 5px;
 }
 
-#cityinfo{
+.cityinfo{
     display:grid;
     grid-template-columns: 1fr;
     grid-gap: 5px;
@@ -240,7 +240,7 @@ form label.top input:required:valid {
     max-width: 300px;
 }
 
-section article {
+#preston #sodasprings #fishhaven {
     box-shadow: 0 0 30px #777;
     background-color: #4d9ee0c0;
     border: 3px solid #555;

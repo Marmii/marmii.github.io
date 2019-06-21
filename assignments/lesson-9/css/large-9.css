@@ -150,7 +150,7 @@ form label.bottom {
     padding: .4rem 0;
 }
 
-.home{
+#cityinfo {
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;

@@ -13,7 +13,7 @@ request.onload = function() {
 
 function showData(jsonObj) {
 var info = jsonObj["towns"];
-var currentTown = document.querySelector("title").innerHTML.split("")[0];
+var currentTown = document.querySelector("name").innerHTML.split("")[0];
   
 for (var i = 0; i < info.length; i++) {
 

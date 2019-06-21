@@ -9,15 +9,18 @@ request.send();
 request.onload = function() {
     var townInfo = request.response;
     showData(townInfo);
-}
+};
 
 function showData(jsonObj) {
 var info = jsonObj["towns"];
-//var currentTown = document.querySelector("name").innerHTML.split("")[0];
-  
+
 for (var i = 0; i < info.length; i++) {
 
-    //if(town[i].name == currentTown) {
+    if(info[i].name == "Preston" ||
+          info[i].name == "Fish Haven" ||
+          info[i].name == "Soda Springs") 
+          {
+    var townname = document.getElementById(info[i].name);
     var myArticle = document.createElement("article");
     var myH2 = document.createElement('h2');
     var myH3 = document.createElement('h3');
@@ -37,7 +40,7 @@ for (var i = 0; i < info.length; i++) {
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
 
-    section.appendChild(myArticle);
+    townname.appendChild(myArticle);
     }
 
 

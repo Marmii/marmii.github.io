@@ -236,11 +236,11 @@ form label.top input:required:valid {
     grid-gap: 5px;
 }
 
-section figure img {
+.image{
     max-width: 300px;
 }
 
-#cityinfo {
+section article {
     box-shadow: 0 0 30px #777;
     background-color: #4d9ee0c0;
     border: 3px solid #555;

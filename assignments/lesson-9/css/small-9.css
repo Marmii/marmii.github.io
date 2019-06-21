@@ -236,7 +236,7 @@ form label.top input:required:valid {
     grid-gap: 5px;
 }
 
-section figure img {
+section article figure img {
     max-width: 300px;
 }
 

@@ -13,11 +13,11 @@ request.onload = function() {
 
 function showData(jsonObj) {
 var info = jsonObj["towns"];
-var currentTown = document.querySelector("name").innerHTML.split("")[0];
+//var currentTown = document.querySelector("name").innerHTML.split("")[0];
   
 for (var i = 0; i < info.length; i++) {
 
-    if(town[i].name == currentTown) {
+    //if(town[i].name == currentTown) {
     var myArticle = document.createElement("article");
     var myH2 = document.createElement('h2');
     var myH3 = document.createElement('h3');

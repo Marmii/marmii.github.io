@@ -1,4 +1,3 @@
-var header = document.querySelector("header");
 var section = document.querySelector("section");
 
 var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
@@ -9,7 +8,6 @@ request.responseType = 'json';
 request.send();
 request.onload = function() {
     var townInfo = request.response;
-    populateHeader(data);
     showData(townInfo);
 }
 
@@ -33,11 +31,13 @@ for (var i = 0; i < info.length; i++) {
     myPara2.textContent = 'Current Population: ' + info[i].currentPopulation;
     myPara3.textContent = 'Average Rainfall: ' + info[i].averageRainfall;
 
-    myH2.appendChild(myH2);
-    myH3.appendChild(myH3);
-    myPara1.appendChild(myPara1);
-    myPara2.appendChild(myPara2);
-    myPara3.appendChild(myPara3);
+    myArticle.appendChild(myH2);
+    myArticle.appendChild(myH3);
+    myArticle.appendChild(myPara1);
+    myArticle.appendChild(myPara2);
+    myArticle.appendChild(myPara3);
+
+    section.appendChild(myArticle);
     }
 
 

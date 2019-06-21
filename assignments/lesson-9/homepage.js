@@ -9,7 +9,7 @@ request.send();
 request.onload = function() {
     var townInfo = request.response;
     showData(townInfo);
-};
+}
 
 function showData(jsonObj) {
 var info = jsonObj["towns"];

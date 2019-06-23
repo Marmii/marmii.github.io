@@ -15,5 +15,3 @@ today.textContent = "" +dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +y
 today.innerText = "" +dayarray[day]+ " " +daym+ " " +montharray[month]+ " " +year;
 }
 currentDate();
-var date = currentDate();
-    document.getElementById("today").innerHTML = currentDate();

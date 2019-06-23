@@ -46,7 +46,6 @@ for (var i = 0; i < info.length; i++) {
     var myPara3 = document.createElement('p');
 
     
-   
     myPara1.textContent = "Year Founded: " + info[i].yearFounded;
     myPara2.textContent = "Current Population: " + info[i].currentPopulation;
     myPara3.textContent = "Average Rainfall: " + info[i].averageRainfallj + "in.";
@@ -54,7 +53,7 @@ for (var i = 0; i < info.length; i++) {
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
-    townname.appendChild(myArticle);
+    
 
     
     }

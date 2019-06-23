@@ -47,7 +47,7 @@ div img {
     box-shadow: 0 0 30px #777;
 }
 
-article img {
+.franklinimage {
     float: right;
     clear: right;
     width: 50%;
@@ -62,7 +62,7 @@ article img {
     color: #4d9ee0c0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    
+    font-size: 30px;
 }
 
 table, td, th {
@@ -98,6 +98,7 @@ th {
  }
 
 .forecast {
+    display:block;
     font-size: 1em;
     color: black;
 }
@@ -105,7 +106,4 @@ th {
     float: left;
 }
 
-.forecast {
-    display: block;
-}
 }

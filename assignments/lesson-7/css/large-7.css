@@ -83,7 +83,7 @@ table, td, th {
 }
 
 .container{
-    display: table;;
+    display: table;
     text-align: center;
     box-sizing:border-box;
     margin: 1rem auto; 

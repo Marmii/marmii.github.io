@@ -53,7 +53,7 @@
         flex-wrap: wrap;
     }
     
-div img {
+.franklinimage {
     float: none;
     width: 100%;
     margin: 0 0 0 2%;
@@ -75,7 +75,7 @@ article img {
     color: #4d9ee0c0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    font-size: 60px;
+    font-size: 30px;
     
 }
 
@@ -92,9 +92,9 @@ table, td, th {
     max-width: 80%;
     color: black;
     border-collapse: collapse;
-    /*width: 180px;
+    width: 180px;
     margin-left: auto;
-    margin-right: auto;*/
+    margin-right: auto;
     
 }
 

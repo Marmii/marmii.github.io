@@ -53,13 +53,13 @@
         flex-wrap: wrap;
     }
     
-div img {
+.franklinimage {
     float: none;
     width: 100%;
     margin: 0 0 0 2%;
     box-shadow: 0 0 30px #777;
 }
-.franklinimage {
+article image {
     float: right;
     clear: right;
     width: 50%;
@@ -83,7 +83,7 @@ table, td, th {
 }
 
 .container{
-    display: table;
+    display: table;;
     text-align: center;
     box-sizing:border-box;
     margin: 1rem auto; 

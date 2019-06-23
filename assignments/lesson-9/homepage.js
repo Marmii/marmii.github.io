@@ -5,7 +5,7 @@ var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 var request = new XMLHttpRequest();
 request.open("GET", requestURL);
-request.responseType = 'json';
+request.responseType = "json";
 request.send();
 request.onload = function() {
     var townInfo = request.response;
@@ -21,13 +21,20 @@ for (var i = 0; i < info.length; i++) {
           info[i].name == "Fish Haven" ||
           info[i].name == "Soda Springs") 
           {
-    var townname = document.getElementById(info[i].name);
+    var string = "";
+    for (var j= 0; j< info[i].name.length; j++){
+        if (info[i].name.charAt(j) != ""){
+            string += info[i].name.charAt(j);
+        }
+    }            
+    console.log(string);
+    var townname = document.getElementById(string);
     var myH2 = document.createElement('h2');
     myH2.textContent = info[i].name;
     townname.appendChild(myH2);
 
     var myH3 = document.createElement('h3');
-    myH3.textContent = '' + info[i].motto;
+    myH3.textContent = info[i].motto;
     myH3.appendChild(myH3);
         
 
@@ -40,14 +47,14 @@ for (var i = 0; i < info.length; i++) {
 
     
    
-    myPara1.textContent = 'Year Founded: ' + info[i].yearFounded;
-    myPara2.textContent = 'Current Population: ' + info[i].currentPopulation;
-    myPara3.textContent = 'Average Rainfall: ' + info[i].averageRainfallj + "in.";
+    myPara1.textContent = "Year Founded: " + info[i].yearFounded;
+    myPara2.textContent = "Current Population: " + info[i].currentPopulation;
+    myPara3.textContent = "Average Rainfall: " + info[i].averageRainfallj + "in.";
     
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
-    //townname.appendChild(myArticle);
+    townname.appendChild(myArticle);
 
     
     }

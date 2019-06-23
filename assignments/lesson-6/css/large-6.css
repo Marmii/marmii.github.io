@@ -98,7 +98,7 @@ th {
  }
 
 .forecast {
-    display:block;
+    display:table;
     font-size: 1em;
     color: black;
 }

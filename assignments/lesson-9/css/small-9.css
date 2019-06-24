@@ -240,7 +240,7 @@ form label.top input:required:valid {
     max-width: 300px;
 }
 
-#Preston #SodaSprings #FishHaven {
+#Preston, #SodaSprings, #FishHaven {
     box-shadow: 0 0 30px #777;
     background-color: #4d9ee0c0;
     border: 3px solid #555;

@@ -23,7 +23,7 @@ for (var i = 0; i < info.length; i++) {
           {
     var string = "";
     for (var j= 0; j< info[i].name.length; j++){
-        if (info[i].name.charAt(j) != ""){
+        if (info[i].name.charAt(j) != " "){
             string += info[i].name.charAt(j);
         }
     }            
@@ -35,7 +35,7 @@ for (var i = 0; i < info.length; i++) {
 
     var myH3 = document.createElement('h3');
     myH3.textContent = info[i].motto;
-    myH3.appendChild(myH3);
+    townname.appendChild(myH3);
         
 
     var myArticle = document.createElement("article");
@@ -53,6 +53,9 @@ for (var i = 0; i < info.length; i++) {
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
+
+    townname.appendChild(myArticle);
+    
     
 
     

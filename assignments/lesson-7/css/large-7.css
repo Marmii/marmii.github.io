@@ -68,7 +68,6 @@ article image {
 }
 
 .heading5 {
-    display: inline-block;
 	vertical-align: middle;
     margin: 10px;
     color: #4d9ee0c0;
@@ -115,6 +114,8 @@ th {
  }
 
 .forecast {
+    margin-left: auto;
+    margin-right: auto;
     display:inline;
     font-size: 2em;
     color: black;

@@ -233,7 +233,7 @@ form label.top input:required:valid {
 .cityinfo {
     display:grid;
     grid-template-columns: 1fr;
-    grid-gap: 5px;
+    grid-gap: 2px;
 }
 
 .cityinfo figure >img {

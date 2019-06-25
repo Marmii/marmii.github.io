@@ -237,7 +237,10 @@ form label.top input:required:valid {
 }
 
 .image {
-    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    padding: 5px;
 }
 
 #Preston, #SodaSprings, #FishHaven {

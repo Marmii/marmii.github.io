@@ -236,11 +236,8 @@ form label.top input:required:valid {
     grid-gap: 5px;
 }
 
-.image {
-    display: flex;
-    flex-direction: column;
-    order: 1;
-    padding: 5px;
+.cityinfo div.image {
+    max-width: 300px;
 }
 
 #Preston, #SodaSprings, #FishHaven {

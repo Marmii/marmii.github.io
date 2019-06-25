@@ -238,6 +238,7 @@ form label.top input:required:valid {
 
 .cityinfo div.image {
     max-width: 300px;
+    max-height: 300px;
 }
 
 #Preston, #SodaSprings, #FishHaven {

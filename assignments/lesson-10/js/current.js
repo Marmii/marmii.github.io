@@ -8,12 +8,12 @@ weatherRequest.onload = function() {
     console.log(weatherData);
 
     document.getElementById('temp').innerHTML = weatherData.list[0].main.temp;
-    document.getElementById('current').innerHTML = weatherData.list[0].weather.description;
+    document.getElementById('current').innerHTML = weatherData.list[0].weather[0].description;
     document.getElementById('humidity').innerHTML = weatherData.list[0].main.humidity;
     document.getElementById('windspeed').innerHTML = weatherData.list[0].wind.speed;
 
- let desc = weatherData.weather[0].description;
+ /*let desc = weatherData.weather[0].description;
     let icon = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
     document.getElementById('cc-img').setAttribute('src', icon);
-    document.getElementById('cc-img').setAttribute('alt', desc);
+    document.getElementById('cc-img').setAttribute('alt', desc);*/
 }

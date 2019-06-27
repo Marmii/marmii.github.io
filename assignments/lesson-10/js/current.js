@@ -19,7 +19,15 @@ let s = parseInt(document.getElementById('windspeed').innerHTML);
 var f = 35.74 + 0.6215 * t - (35.75 * Math.pow(s, .16)) + (.4275 * t * Math.pow(s, .16));
 /*Output: wind chill rounded to whole number*/
 document.getElementById('output').innerHTML = "Wind Chill:" + f.toFixed(0) + "&#8457";
- /*let desc = weatherData.weather[0].description;
+
+for (var i= 0; i< weatherData.list.length; i++){
+    if (weatherData.list.dt_txt.includes = "18:00:00"){
+        document.getElementById('day1').innerHTML = var i;
+        
+    }
+}        
+
+    let desc = weatherData.weather[0].description;
     let icon = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
     document.getElementById('cc-img').setAttribute('src', icon);
     document.getElementById('cc-img').setAttribute('alt', desc);*/

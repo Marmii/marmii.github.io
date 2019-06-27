@@ -1,5 +1,4 @@
-var header = document.querySelector("header");
-var section = document.querySelector("section");
+//var span = document.querySelector("span");
 
 var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
@@ -17,22 +16,15 @@ var info = jsonObj["towns"];
 
 for (var i = 0; i < info.length; i++) {
 
-    if(info[i].name == "Preston" ||
-          info[i].name == "Fish Haven" ||
-          info[i].name == "Soda Springs") 
-          {
-    var string = "";
-    for (var j= 0; j< info[i].name.length; j++){
-        if (info[i].name.charAt(j) != " "){
-            string += info[i].name.charAt(j);
-        }
-    }            
+    if (info[i].name == "Preston") {          
     console.log(string);
+    document.getElementById('events').innerHTML = info.events;
+    /*var townname = document.getElementById(events);
    
 
-    varnewH3 = document.createElement('h3');
-    newH3.textContent = info[i].events;
-    townname.appendChild(newH3);
+    varnewp = document.createElement('p');
+    newp.textContent = info[i].events;
+    townname.appendChild(newp);*/
     
     
 

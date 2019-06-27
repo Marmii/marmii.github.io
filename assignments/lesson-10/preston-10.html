@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>SE Idaho Weather Watch</title>
+    <meta name="description" content="current weather conditions for the south-east idaho area">
+    <link rel="stylesheet" href="https://marmii.github.io/assignments/lesson-7/css/small-7.css">
+    <link rel="stylesheet" href="https://marmii.github.io/assignments/lesson-7/css/large-7.css">
+    <link rel="stylesheet" href="https://marmii.github.io/assignments/lesson-7/css/medium-7.css">
+</head>
+<body>
+    <header class="header">
+        <img src="https://marmii.github.io/assignments/lesson-4/images/weatherwatchlogo.jpg" alt="Weather Watch Logo">
+        <div class="topheadings">
+        <h1 class="mainheading">SE Idaho Weather Watch</h1><br>
+        <h2 class="motto">Weather where you are!</h2>
+        </div>
+    </header>
+    <nav class="nav">
+        <ul class="navigation">
+            <li class="menubutton"><a href="#" title="Menu" onclick="toggleMenu();">&#9776; Menu</a></li>
+            <li><a href="https://marmii.github.io/assignments/lesson-9/index.html">Home</a></li>
+            <li class="active"><a href="htpps://marmii.github.io/assignments/lesson-7/preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="https://marmii.github.io/assignments/lesson-8/stormcenter.html">Storm Center</a></li>
+            <li><a href="https://marmii.github.io/assignments/lesson-7/gallery-7.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <h2 class="headings">Preston, ID</h2>
+        <div class="herodiv">
+           <figure class="heropic">
+                <img class="franklinimage" src="https://marmii.github.io/assignments/lesson-7/images/cit230_image_franklin.jpg" alt="Landscape picture of Franklin, Idaho" 
+                sizes ="100vw"
+                srcset="https://marmii.github.io/assignments/lesson-7/images/800_franklin_small.jpg 800w,
+                https://marmii.github.io/assignments/lesson-7/images/1800-franklin-large.jpg 1800w">
+           </figure> 
+            <section class="stats">
+                <h3 class="summary">Weather Summary</h3>
+                        <p>Currently:<span id="current">Sunny</span></p>
+                        <p>Temperature: <span id="temp">76</span>&#8457;</p>
+                        <p>Humidity: <span id="humidity">5%</span></p>
+                        <p>Wind Speed: <span id="windspeed">5</span>mph</p>
+                        <p id="output"></p>
+            </section>
+        </div>
+        <h4 class="heading5">5-day Forecast</h4>
+        <div class="forecast">
+                <table class="container">
+                <tr>
+                        <th>Wed</th>
+                        <th>Thur</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                </tr>
+                    <tr>
+                        <td><img src="https://marmii.github.io/assignments/lesson-6/images/cartoon-sun.png" alt="cartoon sun">86&#8457;</td>
+                        <td><img src="https://marmii.github.io/assignments/lesson-6/images/cartoon-sun.png" alt="cartoon sun">83&#8457;</td>
+                        <td><img src="https://marmii.github.io/assignments/lesson-6/images/cartoon-sun.png" alt="cartoon sun">80&#8457;</td>
+                        <td><img src="https://marmii.github.io/assignments/lesson-6/images/cartoon-sun.png" alt="cartoon sun">75&#8457;</td>
+                        <td><img src="https://marmii.github.io/assignments/lesson-6/images/cartoon-sun.png" alt="cartoon sun">78&#8457;</td>
+                    </tr>
+            </table>
+        </div>          
+    <article>
+            <h2 class="headings">Color Sky 5K</h2>
+            <p class="colorrun">People came from far and wide to participate in this week's annual Color Sky 5k run. Participants ages 8 and up chose to run the 5k while being blanketed by color chalk. The weather was perfect for this occasion and all proceeds will go to benefit one, Miss Emery Kavenaw, from Franklin County who is battling leukemia. Ms. Karina Andersen said of her experience, "It was a little cold, but it was well worth it to see the community come together in such a way to help someone in need, and it was a blast for the runners as well as the people colorizing us."</p>
+                <img src="https://marmii.github.io/assignments/lesson-7/images/citycelebration.jpg" alt="People after their 5k color run">
+    </article>
+
+    </main>
+    <footer>
+        <address>
+            Contact Information
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54889.969259919555!2d-111.91534441972081!3d42.099805311795265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C+ID+83263!5e1!3m2!1sen!2sus!4v1560978497571!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </address>
+        <p>&copy; 2019 Miriam Sagers, Utah, USA
+            <a href="#">Terms of Use</a>
+            <span id="today"></span>
+        </p>
+    </footer>
+    <script src="https://marmii.github.io/assignments/lesson-7/js/currentdate.js"></script>
+   
+    <script src="https://marmii.github.io/assignments/lesson-7/js/hamburger.js"></script>
+    <script src="https://marmii.github.io/assignments/lesson-7/js/windchill.js"></script>
+    <script src="https://marmii.github.io/assignments/lesson-10/js/current.js"></script>
+
+    
+</body>
+</html>

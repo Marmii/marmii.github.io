@@ -20,7 +20,7 @@ var f = 35.74 + 0.6215 * t - (35.75 * Math.pow(s, .16)) + (.4275 * t * Math.pow(
 /*Output: wind chill rounded to whole number*/
 document.getElementById('output').innerHTML = "Wind Chill:" + f.toFixed(0) + "&#8457";
 
-for (var i= 0; i< weatherData.list.length; i++){
+/*for (var i= 0; i< weatherData.list.length; i++){
     if (weatherData.list.dt_txt.includes = "18:00:00"){
         document.getElementById('day1').innerHTML = var i;
         

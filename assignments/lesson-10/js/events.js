@@ -25,10 +25,6 @@ for (var i = 0; i < info.length; i++) {
     varnewp = document.createElement('p');
     newp.textContent = info[i].events;
     townname.appendChild(newp);*/
-    
-    
-
-    
     }
 
 

@@ -7,7 +7,7 @@ weatherRequest.onload = function() {
     let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
-    document.getElementById('cc-temp').innerHTML = weatherData.main.temp;
+    document.getElementById('cc-temp').innerHTML = weatherData.list[0].main.temp;
 /*    let desc = weatherData.weather[0].description;
     let icon = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
     document.getElementById('cc-img').setAttribute('src', icon);

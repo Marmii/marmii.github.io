@@ -7,14 +7,14 @@ forecastRequest.onload = function() {
     var weatherData = JSON.parse(forecastRequest.responseText);
     console.log(weatherData);
 
-    document.getElementById('day1').innerHTML = weatherData.list[0].main.temp;
-    document.getElementById('day2').innerHTML = weatherData.list[0].main.temp;
-    document.getElementById('day3').innerHTML = weatherData.list[0].main.temp;
-    document.getElementById('day4').innerHTML = weatherData.list[0].main.temp;
-    document.getElementById('day5').innerHTML = weatherData.list[0].main.temp;
+    document.getElementById('day1').innerHTML = weatherData.list[7].main.temp;
+    document.getElementById('day2').innerHTML = weatherData.list[15].main.temp;
+    document.getElementById('day3').innerHTML = weatherData.list[23].main.temp;
+    document.getElementById('day4').innerHTML = weatherData.list[31].main.temp;
+    document.getElementById('day5').innerHTML = weatherData.list[39].main.temp;
 
-    var icon = 'https://openweathermap.org/img/w/' + weatherData.weather[0].icon + ".png";
-    var desc = weatherData.weather[0].description;
+    var icon = 'https://openweathermap.org/img/w/' + weatherData.list[7].weather.icon + ".png";
+    var desc = weatherData.list[7].weather.description;
     document.getElementById('weatherimage').scroll = icon;
     
     document.getElementById('weatherimage').setAttribute('src', icon);

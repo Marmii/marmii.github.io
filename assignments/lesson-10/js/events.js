@@ -14,7 +14,7 @@ request.onload = function() {
 function showData(jsonObj) {
 var towns = jsonObj["towns"];
 
-for (var i = 0; i < info.length; i++) {
+for (var i = 0; i < towns.length; i++) {
 
     if (info[i].name == "Preston") {          
     //var upcoming = document.getElementById(info[i].events);

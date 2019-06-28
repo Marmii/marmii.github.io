@@ -13,15 +13,15 @@ request.onload = function() {
 
 function showData(jsonObj) {
 var info = jsonObj["towns"];
-var string= "";
+
 for (var i = 0; i < info.length; i++) {
 
     if (info[i].name == "Preston") {          
-    console.log(string);
-    var events = document.getElementById(string);
+    console.log(info[i].events);
+    var upcoming = document.getElementById(info[i].events);
     var mypara = document.createElement('p');
     mypara.textContent = info[i].events;
-    events.appendChild(mypara);
+    upcoming.appendChild(mypara);
     //document.getElementById('events').innerHTML = info.events;
     /*var townname = document.getElementById(events);
    

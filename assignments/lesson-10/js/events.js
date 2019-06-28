@@ -16,7 +16,7 @@ var towns = jsonObj["towns"];
 
 for (var i = 0; i < towns.length; i++) {
 
-    if (info[i].name == "Preston") {          
+    if (towns[i].name == "Preston") {          
     //var upcoming = document.getElementById(info[i].events);
     var myList = document.createElement('ul');
     var townEvents = towns[i].events;

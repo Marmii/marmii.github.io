@@ -8,7 +8,7 @@ forecastRequest.onload = function() {
     console.log(weatherData);
 
     document.getElementById('day1').innerHTML = weatherData.list[7].main.temp;
-    document.getElementById('day2').innerHTML = weatherData.list[15].main.temp;
+    document.getElementById('day2').innerHTML = weatherData.list[14].main.temp;
     document.getElementById('day3').innerHTML = weatherData.list[23].main.temp;
     document.getElementById('day4').innerHTML = weatherData.list[31].main.temp;
     document.getElementById('day5').innerHTML = weatherData.list[39].main.temp;
@@ -20,7 +20,7 @@ forecastRequest.onload = function() {
     document.getElementById('weatherimage1').setAttribute('src', icon);
     document.getElementById('weatherimage1').setAttribute('alt', desc);
 
-    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[15].weather[0].icon + ".png";
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[14].weather[0].icon + ".png";
     var desc = weatherData.list[7].weather[0].description;
     document.getElementById('weatherimage2').scroll = icon;
     

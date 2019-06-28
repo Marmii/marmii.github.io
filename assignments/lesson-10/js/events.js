@@ -25,7 +25,7 @@ for (var i = 0; i < towns.length; i++) {
         listItem.textContent = townEvents[j];
         myList.appendChild(listItem);
     }
-    myList.textContent = info[i].events;
+    myList.textContent = towns[i].events;
     myArticle.appendChild(myList);
     section.appendChild(myArticle);
     //document.getElementById('events').innerHTML = info.events;

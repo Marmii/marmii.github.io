@@ -1,15 +1,22 @@
-let weatherRequest = new XMLHttpRequest();
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
+var weatherRequest = new XMLHttpRequest();
+var apiURLstring = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
 weatherRequest.open('Get', apiURLstring, true);
 weatherRequest.send();
 
 weatherRequest.onload = function() {
-    let weatherData = JSON.parse(weatherRequest.responseText);
+    var weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
-    document.getElementById('cc-temp').innerHTML = weatherData.list[0].main.temp;
-/*    let desc = weatherData.weather[0].description;
-    let icon = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
-    document.getElementById('cc-img').setAttribute('src', icon);
-    document.getElementById('cc-img').setAttribute('alt', desc);*/
+    document.getElementById('day1').innerHTML = weatherData.list[0].main.temp;
+    document.getElementById('day2').innerHTML = weatherDate.list[0].main.temp;
+    document.getElementById('day3').innerHTML = weatherDate.list[0].main.temp;
+    document.getElementById('day4').innerHTML = weatherDate.list[0].main.temp;
+    document.getElementById('day5').innerHTML = weatherDate.list[0].main.temp;
+
+    var icon = 'https://openweathermap.org/img/w/' + weatherData.weather["0"].icon + ".png";
+    var desc = weatherData.weather[0].description;
+    document.getElementById('weatherimage').scroll = icon;
+    
+    document.getElementById('weatherimage').setAttribute('src', icon);
+    document.getElementById('weatherimage').setAttribute('alt', desc);*/
 }

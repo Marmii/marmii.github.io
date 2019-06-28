@@ -7,7 +7,8 @@ request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 request.onload = function() {
-    var towninfo = request.response;
+    var towninfo = JSON.parse(request.response);
+    console.log(towninfo);
     showData(towninfo);
 }
 
@@ -26,8 +27,6 @@ for (var i = 0; i < towns.length; i++) {
         myList.appendChild(listItem);
     }
     myList.textContent = towns[i].events;
-    myArticle.appendChild(myList);
-    townEvents.appendChild(myArticle);
     //document.getElementById('events').innerHTML = info.events;
     /*var townname = document.getElementById(events);
    

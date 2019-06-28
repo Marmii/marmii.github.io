@@ -13,12 +13,12 @@ request.onload = function() {
 
 function showData(jsonObj) {
 var info = jsonObj["towns"];
-
+var string= "";
 for (var i = 0; i < info.length; i++) {
 
     if (info[i].name == "Preston") {          
-    console.log(info);
-    var events = document.getElementById(info);
+    console.log(string);
+    var events = document.getElementById(string);
     var mypara = document.createElement('p');
     mypara.textContent = info[i].events;
     events.appendChild(mypara);

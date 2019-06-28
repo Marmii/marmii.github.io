@@ -24,7 +24,7 @@ for (var i = 0; i < towns.length; i++) {
         var o = townEvents[j];
         listItem.appendChild(document.createTextNode(o.title));
 
-    ul.appendChild(li);
+    ul.appendChild(listItem);
     }
     //myList.textContent = towns[i].events;
     //document.getElementById('events').innerHTML = towns[i].events;

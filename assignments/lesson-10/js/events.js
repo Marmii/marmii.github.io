@@ -12,7 +12,7 @@ request.onload = function() {
 }
 
 function showData(jsonObj) {
-var info = jsonObj["towns"];
+var towns = jsonObj["towns"];
 
 for (var i = 0; i < info.length; i++) {
 

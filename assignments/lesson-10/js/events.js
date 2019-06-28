@@ -1,4 +1,4 @@
-//var span = document.querySelector("span");
+var span = document.querySelector("events");
 
 var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
@@ -17,11 +17,17 @@ var info = jsonObj["towns"];
 for (var i = 0; i < info.length; i++) {
 
     if (info[i].name == "Preston") {          
-    console.log(info[i].events);
-    var upcoming = document.getElementById(info[i].events);
-    var mypara = document.createElement('p');
-    mypara.textContent = info[i].events;
-    upcoming.appendChild(mypara);
+    //var upcoming = document.getElementById(info[i].events);
+    var myList = document.createElement('ul');
+    var townEvents = towns[i].events;
+    for (var j= 0; j < townEvents.length; j++) {
+        var listItem = document.createElement('li');
+        listItem.textContent = townEvents[j];
+        myList.appendChild(listItem);
+    }
+    myList.textContent = info[i].events;
+    myArticle.appendChild(myList);
+    section.appendChild(myArticle);
     //document.getElementById('events').innerHTML = info.events;
     /*var townname = document.getElementById(events);
    

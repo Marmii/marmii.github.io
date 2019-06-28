@@ -18,7 +18,7 @@ for (var i = 0; i < info.length; i++) {
 
     if (info[i].name == "Preston") {          
     console.log(info);
-    var events = document.getElementById(events);
+    var events = document.getElementById(info);
     var mypara = document.createElement('p');
     mypara.textContent = info[i].events;
     events.appendChild(mypara);

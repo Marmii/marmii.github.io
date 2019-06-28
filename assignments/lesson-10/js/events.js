@@ -1,5 +1,3 @@
-var ul = document.getElementById("events");
-
 var requestURL = "https://byui-cit230.github.io/weather/data/towndata.json";
 
 var request = new XMLHttpRequest();
@@ -9,12 +7,13 @@ request.send();
 request.onload = function() {
     var towninfo = JSON.parse(request.response);
     console.log(towninfo);
-    //showData(towninfo);
+    showData(towninfo);
 }
 
 function showData(jsonObj) {
 var towns = jsonObj["towns"];
-var myPara = document.createElement('p');
+var ul = document.getElementById("events");
+
 for (var i = 0; i < towns.length; i++) {
 
     if (towns[i].name == "Preston") {          

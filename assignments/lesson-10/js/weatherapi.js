@@ -19,4 +19,32 @@ forecastRequest.onload = function() {
     
     document.getElementById('weatherimage').setAttribute('src', icon);
     document.getElementById('weatherimage').setAttribute('alt', desc);
+
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[15].weather[0].icon + ".png";
+    var desc = weatherData.list[7].weather.description;
+    document.getElementById('weatherimage').scroll = icon;
+    
+    document.getElementById('weatherimage').setAttribute('src', icon);
+    document.getElementById('weatherimage').setAttribute('alt', desc);
+
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[23].weather[0].icon + ".png";
+    var desc = weatherData.list[7].weather.description;
+    document.getElementById('weatherimage').scroll = icon;
+    
+    document.getElementById('weatherimage').setAttribute('src', icon);
+    document.getElementById('weatherimage').setAttribute('alt', desc);
+
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[31].weather[0].icon + ".png";
+    var desc = weatherData.list[7].weather.description;
+    document.getElementById('weatherimage').scroll = icon;
+    
+    document.getElementById('weatherimage').setAttribute('src', icon);
+    document.getElementById('weatherimage').setAttribute('alt', desc);
+
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[31].weather[0].icon + ".png";
+    var desc = weatherData.list[7].weather.description;
+    document.getElementById('weatherimage').scroll = icon;
+    
+    document.getElementById('weatherimage').setAttribute('src', icon);
+    document.getElementById('weatherimage').setAttribute('alt', desc);
 }

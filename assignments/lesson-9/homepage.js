@@ -48,7 +48,7 @@ for (var i = 0; i < info.length; i++) {
     
     myPara1.textContent = "Year Founded: " + info[i].yearFounded;
     myPara2.textContent = "Current Population: " + info[i].currentPopulation;
-    myPara3.textContent = "Average Rainfall: " + info[i].averageRainfallj + "in.";
+    myPara3.textContent = "Average Rainfall: " + info[i].averageRainfall + "in.";
     
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);

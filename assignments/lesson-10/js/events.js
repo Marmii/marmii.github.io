@@ -7,7 +7,7 @@ request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 request.onload = function() {
-    //var townInfo = request.response;
+    var jsonObj = request.response;
     showData(jsonObj);
 }
 

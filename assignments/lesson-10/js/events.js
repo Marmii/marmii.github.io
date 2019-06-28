@@ -27,7 +27,7 @@ for (var i = 0; i < towns.length; i++) {
     }
     myList.textContent = towns[i].events;
     myArticle.appendChild(myList);
-    section.appendChild(myArticle);
+    //section.appendChild(myArticle);
     //document.getElementById('events').innerHTML = info.events;
     /*var townname = document.getElementById(events);
    

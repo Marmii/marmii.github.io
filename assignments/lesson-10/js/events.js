@@ -21,8 +21,7 @@ for (var i = 0; i < towns.length; i++) {
     var townEvents = towns[i].events;
     for (var j= 0; j < townEvents.length; j++) {
         var listItem = document.createElement('li');
-        var o = townEvents[j];
-        listItem.appendChild(document.createTextNode(o.title));
+        listItem.textContent= townEvents[j];
 
     ul.appendChild(listItem);
     }

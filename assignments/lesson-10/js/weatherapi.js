@@ -17,37 +17,37 @@ forecastRequest.onload = function() {
       //  if(weatherData.list[i].dt_txt.search('18:00:00') != -1){
          //   document.getElementById('day1').innerHTML = weatherData.list[i].main.temp;
 
-     var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[i].weather[0].icon + ".png";
-     var desc = weatherData.list[i].weather[0].description;
+     var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[7].weather[0].icon + ".png";
+     var desc = weatherData.list[7].weather[0].description;
      document.getElementById('weatherimage1').scroll = icon;
             
      document.getElementById('weatherimage1').setAttribute('src', icon);
      document.getElementById('weatherimage1').setAttribute('alt', desc);
    
 
-    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[14].weather[0].icon + ".png";
-    var desc = weatherData.list[7].weather[0].description;
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[15].weather[0].icon + ".png";
+    var desc = weatherData.list[15].weather[0].description;
     document.getElementById('weatherimage2').scroll = icon;
     
     document.getElementById('weatherimage2').setAttribute('src', icon);
     document.getElementById('weatherimage2').setAttribute('alt', desc);
 
-    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[22].weather[0].icon + ".png";
-    var desc = weatherData.list[7].weather[0].description;
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[23].weather[0].icon + ".png";
+    var desc = weatherData.list[23].weather[0].description;
     document.getElementById('weatherimage3').scroll = icon;
     
     document.getElementById('weatherimage3').setAttribute('src', icon);
     document.getElementById('weatherimage3').setAttribute('alt', desc);
 
     var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[31].weather[0].icon + ".png";
-    var desc = weatherData.list[7].weather[0].description;
+    var desc = weatherData.list[31].weather[0].description;
     document.getElementById('weatherimage4').scroll = icon;
     
     document.getElementById('weatherimage4').setAttribute('src', icon);
     document.getElementById('weatherimage4').setAttribute('alt', desc);
 
     var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[39].weather[0].icon + ".png";
-    var desc = weatherData.list[7].weather[0].description;
+    var desc = weatherData.list[39].weather[0].description;
     document.getElementById('weatherimage5').scroll = icon;
     
     document.getElementById('weatherimage5').setAttribute('src', icon);

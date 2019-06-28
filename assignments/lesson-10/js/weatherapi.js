@@ -8,10 +8,10 @@ forecastRequest.onload = function() {
     console.log(weatherData);
 
     document.getElementById('day1').innerHTML = weatherData.list[0].main.temp;
-    document.getElementById('day2').innerHTML = weatherDate.list[0].main.temp;
-    document.getElementById('day3').innerHTML = weatherDate.list[0].main.temp;
-    document.getElementById('day4').innerHTML = weatherDate.list[0].main.temp;
-    document.getElementById('day5').innerHTML = weatherDate.list[0].main.temp;
+    document.getElementById('day2').innerHTML = weatherData.list[0].main.temp;
+    document.getElementById('day3').innerHTML = weatherData.list[0].main.temp;
+    document.getElementById('day4').innerHTML = weatherData.list[0].main.temp;
+    document.getElementById('day5').innerHTML = weatherData.list[0].main.temp;
 
     var icon = 'https://openweathermap.org/img/w/' + weatherData.weather["0"].icon + ".png";
     var desc = weatherData.weather[0].description;

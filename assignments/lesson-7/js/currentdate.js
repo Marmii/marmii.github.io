@@ -9,12 +9,12 @@ function currentDate() {
         //if(year < 1000){
         //    year +=1900
         //}
-    var fulldate = weekday + "," + day + " " + month + " " + year;
+    var fulldate = weekday + "," + month + " " + day + " " + year;
     
-    
+   
     document.getElementById("today").innerHTML = fulldate;
     
 
-//var today = document.getElementById("today");
+
 }
 

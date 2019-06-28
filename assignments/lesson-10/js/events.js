@@ -7,8 +7,8 @@ request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 request.onload = function() {
-    var townInfo = request.response;
-    showData(townInfo);
+    //var townInfo = request.response;
+    //showData(townInfo);
 }
 
 function showData(jsonObj) {

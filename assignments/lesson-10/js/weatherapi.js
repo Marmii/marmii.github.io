@@ -1,5 +1,5 @@
 var forecastRequest = new XMLHttpRequest();
-var apiURLstring = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
+var apiString = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
 forecastRequest.open('Get', apiURLstring, true);
 forecastRequest.send();
 

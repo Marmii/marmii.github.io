@@ -5,7 +5,7 @@ request.open("GET", requestURL);
 request.responseType = "json";
 request.send();
 request.onload = function() {
-    var towninfo = JSON.parse(request.response);
+    var towninfo = request.response;
     console.log(towninfo);
     showData(towninfo);
 }

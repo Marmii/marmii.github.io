@@ -13,7 +13,7 @@ forecastRequest.onload = function() {
     document.getElementById('day4').innerHTML = weatherData.list[31].main.temp;
     document.getElementById('day5').innerHTML = weatherData.list[39].main.temp;
 
-    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[7].weather.icon + ".png";
+    var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[7].weather[0].icon + ".png";
     var desc = weatherData.list[7].weather.description;
     document.getElementById('weatherimage').scroll = icon;
     

@@ -27,7 +27,7 @@ for (var i = 0; i < towns.length; i++) {
         myList.appendChild(listItem);
     }
     myList.textContent = towns[i].events;
-    //document.getElementById('events').innerHTML = info.events;
+    document.getElementById('events').innerHTML = towns[i].events;
     /*var townname = document.getElementById(events);
    
 

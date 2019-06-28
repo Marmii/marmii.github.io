@@ -17,8 +17,12 @@ var info = jsonObj["towns"];
 for (var i = 0; i < info.length; i++) {
 
     if (info[i].name == "Preston") {          
-    //console.log(info);
-    document.getElementById('events').innerHTML = info.events;
+    console.log(info);
+    var events = document.getElementById(events);
+    var mypara = document.createElement('p');
+    mypara.textContent = info[i].events;
+    events.appendChild(mypara);
+    //document.getElementById('events').innerHTML = info.events;
     /*var townname = document.getElementById(events);
    
 

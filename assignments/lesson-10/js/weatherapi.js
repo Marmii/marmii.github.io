@@ -13,9 +13,9 @@ forecastRequest.onload = function() {
     document.getElementById('day4').innerHTML = weatherData.list[31].main.temp;
     document.getElementById('day5').innerHTML = weatherData.list[39].main.temp;
 
-   // for (var i = 0; i < weatherData.length; i++){
-      //  if(weatherData.list[i].dt_txt.search('18:00:00') != -1){
-         //   document.getElementById('day1').innerHTML = weatherData.list[i].main.temp;
+   for (var i = 0; i < weatherData.length; i++){
+        if(weatherData.list[i].dt_txt.search('18:00:00') != -1){
+           document.getElementById('day1').innerHTML = weatherData.list[i].main.temp;
 
      var icon = 'https://openweathermap.org/img/wn/' + weatherData.list[7].weather[0].icon + ".png";
      var desc = weatherData.list[7].weather[0].description;

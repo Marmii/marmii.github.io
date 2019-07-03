@@ -255,3 +255,21 @@ footer iframe {
     max-width: 180px;
     max-height: 180px;
 }
+
+.address {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #4d9ee0c0;
+    padding: 2em;
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #555;
+    padding: 2em;
+    color: white;
+    margin: 0;
+}

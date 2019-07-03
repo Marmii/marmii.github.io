@@ -32,7 +32,7 @@ forecastRequest.onload = function() {
        var tdata1 = document.createElement("td");
        var tdata2 = document.createElement("td");
        var img = document.createElement("img");
-      console.log("this is the list",list[i]);
+      
         if(list[i].dt_txt.includes("18:00:00")) {
            
 //Starts the week over if it's Sunday
@@ -44,16 +44,17 @@ forecastRequest.onload = function() {
            today++;
 //grabs the temp, icon, and description from the list and stores them in var temp, sun, and description
            var temp = list[i].main.temp;
-           var sun = "https://openweathermap.org/img/w/" + list[i].weather[0].icon + ".png";
+           var icon = "https://openweathermap.org/img/w/" + list[i].weather[0].icon + ".png";
+           console.log("icon", icon);
            var description = list[i].weather[0].description;
 //Applies the day name as text, gives an alt tag and src tag to icon
 //adds image to table as well as temp
            theader.textContent = dayname;
-           img.setAttribute("src", sun);
+           img.setAttribute("src", icon);
            img.setAttribute("alt", description);
            tdata1.appendChild(img);
            Math.round(temp);
-           tdata2.textContent = temp + "\xB0F";
+           tdata2.textContent = temp.toFixed(0) + "\xB0F";
 //makes it a 3 row table
            row1.appendChild(theader);
            row2.appendChild(tdata1);

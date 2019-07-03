@@ -79,7 +79,7 @@ article img {
     
 }
 
-table, td, th {
+table, td, th, tr {
     border: 1px solid black;
 }
 
@@ -98,18 +98,18 @@ table, td, th {
     
 }
 
-th {
+tr th {
     height: 50px;
     width: 30px;
     background-color: #4d9ee0c0;
 }
- td {
+tr td {
      
      height: 40px;
      width: 30px;
  }
 
- td img {
+tr td img {
     display: block;
     margin-left: auto;
     margin-right: auto;

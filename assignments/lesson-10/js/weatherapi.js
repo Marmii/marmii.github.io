@@ -34,7 +34,7 @@ forecastRequest.onload = function() {
        var img = document.createElement("img");
     
         if(list[i].dt_txt.includes("18:00:00")) {
-           console.log("gotcha");
+           
 //Starts the week over if it's Sunday
            if(today == 7) {
               today = 0;
@@ -53,7 +53,7 @@ forecastRequest.onload = function() {
            img.setAttribute("alt", description);
            tdata1.appendChild(img);
            Math.round(temp);
-           tdata2.textContent = temp + "\xB0F";
+           tdata2.textContent = temp.toFixed(0) + "\xB0F";
 //makes it a 3 row table
            row1.appendChild(theader);
            row2.appendChild(tdata1);

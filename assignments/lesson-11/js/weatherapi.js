@@ -26,7 +26,7 @@ forecastRequest.onload = function() {
     var row3 = document.createElement("tr");
 
     for (i = 0; i < list.length; i++) {
-       var thead = document.createElement("th");
+       var theader = document.createElement("th");
        var tdata1 = document.createElement("td");
        var tdata2 = document.createElement("td");
        var img = document.createElement("img");
@@ -44,7 +44,7 @@ forecastRequest.onload = function() {
            var sun = "https://openweathermap.org/img/w/" + list[i].weather[0].icon + ".png";
            var description = list[i].weather[0].description;
 
-           thead.textContent = dayname;
+           theader.textContent = dayname;
            img.setAttribute("src", sun);
            img.setAttribute("alt", description);
            tdata1.appendChild(img);

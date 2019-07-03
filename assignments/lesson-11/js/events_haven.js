@@ -16,7 +16,14 @@ var ul = document.getElementById("events");
 
 for (var i = 0; i < towns.length; i++) {
 
-    if (towns[i].name == "Preston") {          
+    if (towns[i].name == "Fish Haven") 
+        {
+            var string = "";
+            for (var j= 0; j< info[i].name.length; j++){
+                if (info[i].name.charAt(j) != " "){
+                    string += info[i].name.charAt(j);
+                }        
+            }
     //var myList = document.createElement('li');
     var townEvents = towns[i].events;
     for (var j= 0; j < townEvents.length; j++) {

@@ -241,6 +241,7 @@ form label.top input:required:valid {
 
 .cityinfo figure >img {
     max-width: 300px;
+    width: 100%;
 
 }
 

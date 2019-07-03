@@ -9,8 +9,8 @@ var thead = document.querySelector("table");
 var tbody = document.querySelector("table");
 
 var forecastRequest = new XMLHttpRequest();
-var apiURLString1 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
-forecastRequest.open('Get', apiURLString1, true);
+var apiURLString1 = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2";
+forecastRequest.open("Get", apiURLString1, true);
 forecastRequest.send();
 
 forecastRequest.onload = function() {
@@ -23,11 +23,12 @@ forecastRequest.onload = function() {
     var list = weatherData.list;
     var row1 = document.createElement("tr");
     var row2 = document.createElement("tr");
+    var row3 = document.createElement("tr");
 
     for (i = 0; i < list.length; i++) {
-       var theader = document.createElement("th");
+       var thead = document.createElement("th");
        var tdata1 = document.createElement("td");
-       //var tdata2 = document.createElement("td");
+       var tdata2 = document.createElement("td");
        var img = document.createElement("img");
     
         if(list[i].dt_txt.includes("18:00:00")) {
@@ -47,12 +48,14 @@ forecastRequest.onload = function() {
            img.setAttribute("src", sun);
            img.setAttribute("alt", description);
            tdata1.appendChild(img);
-           tdata1.textContent = temp + "&#8457";
+           tdata2.textContent = temp + "\xB0F";
 
            row1.appendChild(theader);
            row2.appendChild(tdata1);
+           row3.appendChild(tdata2);
          }
          thead.appendChild(row1);
-         tbody.appendChild(row2)
+         tbody.appendChild(row2);
+         tbody.appendChild(row3);
       }
    };

@@ -32,9 +32,9 @@ forecastRequest.onload = function() {
        var tdata1 = document.createElement("td");
        var tdata2 = document.createElement("td");
        var img = document.createElement("img");
-    
+      console.log("this is the list",list[i]);
         if(list[i].dt_txt.includes("18:00:00")) {
-           console.log("gotcha");
+           
 //Starts the week over if it's Sunday
            if(today == 7) {
               today = 0;

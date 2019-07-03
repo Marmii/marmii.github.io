@@ -143,8 +143,11 @@ article img {
     box-shadow: 0 0 30px #777;
 }
 
-article {
+.cityarticle {
     padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .forecast {

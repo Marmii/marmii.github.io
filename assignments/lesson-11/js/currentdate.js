@@ -6,14 +6,15 @@ function currentDate() {
     var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
     var month = montharray[mydate.getMonth()];
     
+    var year = mydate.getYear();    
         if(year < 1000){
             year +=1900
-            var year = mydate.getYear();
-        }
-    var fulldate = weekday + "," + month + " " + day + " " + year;
+            }
+    var fulldate = weekday + ", " + month + " " + day + " " + year;
     
    
     document.getElementById("today").innerHTML = fulldate;
     
 }
 currentDate();
+

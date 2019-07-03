@@ -84,8 +84,7 @@ table, td, th {
 }
 
 .container{
-    display: flex;
-    flex-flow: column;
+    display: table;
     text-align: center;
     box-sizing:border-box;
     margin: 1rem auto; 

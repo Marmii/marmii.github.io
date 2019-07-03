@@ -74,7 +74,7 @@ nav li a {
     display: flex;
     width: 100%;
     vertical-align: middle;
-    margin: 1rem auto;
+    margin: 0;
     background-color: hsl(204, 5%, 39%);
     border: 1px solid black;
     text-align: center;

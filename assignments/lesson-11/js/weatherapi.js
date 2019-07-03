@@ -9,7 +9,7 @@ var thead = document.querySelector("table");
 var tbody = document.querySelector("table");
 
 var forecastRequest = new XMLHttpRequest();
-var apiString1 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
+var apiURLString1 = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
 forecastRequest.open('Get', apiURLstring1, true);
 forecastRequest.send();
 

@@ -271,9 +271,8 @@ footer iframe {
 }
 
 .copyright {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    display: grid;
+    justify-content: left;
     background-color: #555;
     padding: 2em;
     color: white;

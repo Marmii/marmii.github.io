@@ -157,4 +157,13 @@ form label.bottom {
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 2px;
 }
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #555;
+    padding: 2em;
+    color: white;
+    margin: 0;
+}
 }

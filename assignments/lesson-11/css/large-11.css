@@ -63,7 +63,7 @@
 article img {
     float: right;
     clear: right;
-    width: 75%;
+    width: 100%;
     margin: 10px;
     box-shadow: 0 0 30px #777;
 }

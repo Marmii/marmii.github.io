@@ -263,7 +263,7 @@ footer iframe {
 
 .address {
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-around;
     background-color: #4d9ee0c0;
     padding: 2em;

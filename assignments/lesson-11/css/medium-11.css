@@ -62,7 +62,7 @@ div img {
 article img {
     float: right;
     clear: right;
-    width: 50%;
+    width: 75%;
     margin: 10px;
     box-shadow: 0 0 30px #777;
 }

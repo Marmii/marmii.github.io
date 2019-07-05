@@ -148,6 +148,7 @@ article img {
     display: flex;
     justify-content: space-between;
     box-shadow: 0 0 30 px #777;
+    margin: 0px 5px 20px 5px;
 }
 
 .forecast {
@@ -295,12 +296,9 @@ footer iframe {
 
 .eventsbox {
     display: table;
-    margin-left: auto;
-    margin-right: auto;
     border: 2px solid #4d9ee0c0;
     padding-left: 400px;
     padding-right: 400px;
     box-shadow: 0 0 20px #777;
-    margin-top: 100px;
-    margin-bottom: 100 px;
+    margin: 100px 30px 100px;
 }

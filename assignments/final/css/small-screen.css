@@ -207,9 +207,9 @@ form label.top input:required:valid {
 }
 
 #Logan, #StarValley, #Brigham {
-    box-shadow: 0 0 30px #777;
-    background-color: #4d9ee0c0;
-    border: 3px solid #555;
+    box-shadow: 0 0 30px #887974;
+    background-color: #99c9c9;
+    border: 3px solid #3d535d;
     border-radius: 5px 10px;
     padding: 0 10px 0 10px;
     margin: 2em 2em;
@@ -254,18 +254,16 @@ footer iframe {
     padding-left: 5px;
 }
 
-.eventsbox {
-    display: table;
-    border: 2px solid #4d9ee0c0;
-    padding-left: 400px;
-    padding-right: 400px;
-    box-shadow: 0 0 20px #777;
-    margin: 100px 30px 100px;
-}
-
 .credit {
     display: flex;
 
+}
+
+.reserve {
+    font-size: 22px;
+    color: #3d535d;
+    font-weight: bold;
+    font-family: 'Volkorn', serif;
 }
 
 .button {

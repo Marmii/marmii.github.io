@@ -225,21 +225,21 @@ footer iframe {
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    background-color: #4d9ee0c0;
+    background-color: #99c9c9;
     padding: 2em;
 }
 
 .copyright {
     display: grid;
     justify-content: left;
-    background-color: #555;
+    background-color: #3d535d;
     padding: 2em;
-    color: white;
+    color: #f5c47b;
     margin: 0;
 }
 
 .link {
-    color:#848f96;
+    color:#f5c47b;
 }
 
 .social {

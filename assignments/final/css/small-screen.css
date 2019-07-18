@@ -20,8 +20,8 @@ body {
 header img {
     flex:auto;
     float: left;
-    max-width: 12%;
-    max-height: 80px;
+    max-width: 100%;
+    max-height: 100%;
     margin-left: 0;
     box-shadow: 0 0 30px #887974;
 }

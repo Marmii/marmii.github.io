@@ -267,3 +267,10 @@ footer iframe {
     display: flex;
 
 }
+
+.button {
+    background-color: #99c9c9;
+    font-size: 30px;
+    padding: 15px 10px;
+    border: 2px solid #3d535d
+}

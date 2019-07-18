@@ -265,5 +265,10 @@ footer iframe {
 
 .credit {
     display: flex;
-    
+
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
 }

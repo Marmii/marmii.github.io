@@ -262,3 +262,8 @@ footer iframe {
     box-shadow: 0 0 20px #777;
     margin: 100px 30px 100px;
 }
+
+.credit {
+    display: flex;
+    
+}

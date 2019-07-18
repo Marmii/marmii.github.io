@@ -267,8 +267,3 @@ footer iframe {
     display: flex;
 
 }
-
-.intro {
-    display: flex;
-    flex-direction: column;
-}

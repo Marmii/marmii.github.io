@@ -227,6 +227,7 @@ footer iframe {
     justify-content: space-around;
     background-color: #99c9c9;
     padding: 2em;
+    max-height: 50%;
 }
 
 .copyright {

@@ -100,7 +100,7 @@ nav li a:hover {
 article img {
     float: none;
     width: 50%;
-    margin: 20px;
+    margin: 20px 50px;
     
 }
 
@@ -229,15 +229,14 @@ footer iframe {
     align-items: flex-end;
     justify-content: space-around;
     background-color: #99c9c9;
-    padding: 2em;
-    max-height: 50%;
+    padding: 1em;
 }
 
 .copyright {
     display: grid;
     justify-content: left;
     background-color: #3d535d;
-    padding: 2em;
+    padding: 1em;
     color: #f5c47b;
     margin: 0;
 }

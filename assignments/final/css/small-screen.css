@@ -100,8 +100,8 @@ nav li a:hover {
 article img {
     float: none;
     width: 50%;
-    margin: 10px;
-    box-shadow: 0 0 30px #887974;
+    margin: 20px;
+    
 }
 
 .templearticle {
@@ -109,6 +109,7 @@ article img {
     display: flex;
     justify-content: space-between;
     margin: 0px 5px 20px 5px;
+    box-shadow: 0 0 30px #887974;
 }
 
 .templeimage {

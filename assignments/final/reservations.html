@@ -7,7 +7,7 @@
     <meta name="description" content="Reservation page for all your reservation needs">
     <link rel="stylesheet" href="https://marmii.github.io/assignments/final/css/small-screen.css">
     <link rel="stylesheet" href="https://marmii.github.io/assignments/final/css/large-screen.css">
-    <link rel="stylesheet" href="https://marmii.github.io/assignments/finalcss/medium-screen.css">
+    <link rel="stylesheet" href="https://marmii.github.io/assignments/final/css/medium-screen.css">
 </head>
 <body>
         <header class="header">
@@ -25,43 +25,44 @@
                 </ul>
             </nav>
     <main class="main">
-            <form method="get" action="https://marmii.github.io/assignments/lesson-8/thanks.html">
+            <form method="get" action="https://marmii.github.io/assignments/final/thanks.html">
             <fieldset>
-                <legend>Resident Information</legend>
+                <legend>Guest Information</legend>
                 <label class="top">Full Name:*<input type="text" name="fname" required pattern="[a-zA-z -._]{5,99}" title="Full Name"></label> 
                 <label class="top">E-mail:<input type="text" name="email" placeholder="john.doe@domain.com"></label> 
                 <label class="top">Phone Number:*<input type="tel" name="phn" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required></label>
+                <label class="top">State:*<input type="text" name= "state" required></label>
                 <label class="top">Zip Code:*<input type="number" name="zip" required></label>
             </fieldset>
             <fieldset>
-                <legend>Storm Details</legend>
-                <label class="bottom">Storm Date:<input type="date" name="stormdate"></label> 
-                <label class="bottom">Storm type:<input name="type" list="stormtype"></label> 
-                    <datalist id="stormtype">
-                            <option value="Flash Flood">
-                            <option value="Hail">
-                            <option value="Hurricane">
-                            <option value="Thunderstorm">
-                            <option value="Tornado">
+                <legend>Reservation Information</legend>
+                <label class="bottom">Reservation Date:<input type="date" name="reservedate"></label> 
+                <label class="bottom">Temple Location:
+                        <select name="location">
+                            <option value="">Select Temple</option>
+                            <option value="Logan">Logan</option>
+                            <option value="Brigham City">Brigham City</option>
+                            <option value="Star Valley">Star Valley</option>
+                            <option value="Ogden">Ogden</option>
+                        </select>
+                    </label>
+                <label class="bottom">Reservation type:<input name="type" list="reservetype"></label> 
+                    <datalist id="reservetype">
+                            <option value="2 Queen Beds">
+                            <option value="1 Kind Bed">
+                            <option value="Suite with Kitchenette">
                     </datalist><br>
                 <label class="bottom">Storm Severity(1-10):<input type="range" name="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
                     onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
-                <label class="bottom">Storm Region:
-                    <select name="region">
-                        <option value="">Select Region</option>
-                        <option value="Prestion">Preston</option>
-                        <option value="Sugar City">Sugar City</option>
-                        <option value="Fish Haven">Fish Haven</option>
-                    </select>
-                </label>
-                <div>User In-Danger Level:</div>
-                            <label class="bottom"><input type="radio" name="danger" value="yes">Yes</label>
-                            <label class="bottom"><input type="radio" name="danger" value="no">No</label>
-                            <label class="bottom"><input type="radio" name="danger" value="maybe">Maybe</label>
-                <label class="bottom">Additional Information:<textarea id="info" rows="6" cols="50"></textarea></label> 
+                
+                <div>Special Accommodations required:</div>
+                            <label class="bottom"><input type="radio" name="special" value="yes">Yes</label>
+                            <label class="bottom"><input type="radio" name="special" value="no">No</label>
+                            <label class="bottom"><input type="radio" name="special" value="maybe">Maybe</label>
+                <label class="bottom">Additional Comments:<textarea id="info" rows="6" cols="50"></textarea></label> 
             </fieldset>
                
-            <input type="submit" value="Report Weather" class="submit">
+            <input type="submit" value="Reserve Now" class="submit">
               </form>
 
     </main>

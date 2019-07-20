@@ -281,3 +281,12 @@ footer iframe {
     margin: auto;
     border-radius: 1rem;
 }
+
+.servicesarticle {
+    padding: 5px;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    box-shadow: 0 0 15px #887974;
+    overflow: auto;
+}

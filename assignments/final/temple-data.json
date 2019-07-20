@@ -1,7 +1,6 @@
 {
     "temples" : [
-  {
-    "picture" : "https://marmii.github.io/assignments/final/images/brigham-city-temple.jpg",  
+  {  
     "name": "Brigham City Temple",
     "telephone": "435-695-2170",
     "address": 
@@ -31,8 +30,7 @@
     },
 
   
-    {
-        "picture" : "https://marmii.github.io/assignments/final/images/logan-utah-temple.jpg",  
+    { 
         "name": "Logan Temple",
         "telephone": "435-752-3611",
         "address": 
@@ -57,8 +55,7 @@
     
       
         },
-    {
-        "picture" : "https://marmii.github.io/assignments/final/images/star-valley-temple.jpg",  
+    {  
         "name": "Star Valley Temple",
         "telephone": "307-886-6820",
         "address": 
@@ -78,8 +75,7 @@
             "Tuesday, 31 December 2019"
           ]
         },
-        {
-        "picture" : "https://marmii.github.io/assignments/final/images/ogden-temple.jpg",  
+        {  
         "name": "Ogden Temple",
         "telephone": "801-621-6880",
         "address": 

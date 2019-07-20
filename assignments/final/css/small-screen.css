@@ -291,3 +291,11 @@ footer iframe {
     margin: 10px;
     overflow: hidden;
 }
+
+.specialimage {
+    float: right;
+    clear: right;
+    width: 50%;
+    margin: 20px 50px;
+    box-shadow: 0 0 30px #887974;
+}

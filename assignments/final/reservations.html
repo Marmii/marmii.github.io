@@ -49,17 +49,15 @@
                 <label class="bottom">Reservation type:<input name="type" list="reservetype"></label> 
                     <datalist id="reservetype">
                             <option value="2 Queen Beds">
-                            <option value="1 Kind Bed">
+                            <option value="1 King Bed">
                             <option value="Suite with Kitchenette">
                     </datalist><br>
-                <label class="bottom">Storm Severity(1-10):<input type="range" name="rating" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)"
-                    onchange="adjustRating(this.value)"><span id="ratingvalue">5</span></label>
                 
                 <div>Special Accommodations required:</div>
                             <label class="bottom"><input type="radio" name="special" value="yes">Yes</label>
                             <label class="bottom"><input type="radio" name="special" value="no">No</label>
                             <label class="bottom"><input type="radio" name="special" value="maybe">Maybe</label>
-                <label class="bottom">Additional Comments:<textarea id="info" rows="6" cols="50"></textarea></label> 
+                <label class="bottom">Additional Comments/Description of Accommodations Required:<textarea id="info" rows="6" cols="50"></textarea></label> 
             </fieldset>
                
             <input type="submit" value="Reserve Now" class="submit">

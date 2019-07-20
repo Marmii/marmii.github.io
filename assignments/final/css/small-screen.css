@@ -271,8 +271,12 @@ footer iframe {
 }
 
 .button {
-    background-color: #99c9c9;
+    background-color: #3d535d;
     font-size: 22px;
     padding: 10px 10px;
-    border: 2px solid #3d535d
+    border: 2px solid #887974;
+    display: flex;
+    max-height: 100px;
+    align-items: center;
+    margin: auto;
 }

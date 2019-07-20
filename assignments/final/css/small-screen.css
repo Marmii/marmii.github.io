@@ -279,4 +279,5 @@ footer iframe {
     max-height: 100px;
     align-items: center;
     margin: auto;
+    border-radius: 1rem;
 }

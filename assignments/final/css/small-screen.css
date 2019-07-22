@@ -208,6 +208,7 @@ form label.top input:required:valid {
 .templeinfo figure >img {
     max-width: 300px;
     width: 100%;
+    border-radius: .5rem;
 
 }
 
@@ -324,6 +325,6 @@ footer iframe {
     background-color: #ebf6f2;
 }
 
-.image {
+span img {
     border-radius: .5rem;
 }

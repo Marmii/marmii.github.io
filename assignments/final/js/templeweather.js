@@ -9,19 +9,19 @@ weatherRequest.onload = function() {
 
     document.getElementById('btemp').innerHTML = weatherData.list[0].main.temp;
     document.getElementById('bcurrent').innerHTML = weatherData.list[0].weather[0].description;
-
+}
 let currentRequest = new XMLHttpRequest();
 let apiURLstring1 = 'https://api.openweathermap.org/data/2.5/group?id=5476526&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
 currentRequest.open('Get', apiURLstring1, true);
 currentRequest.send();
     
 currentRequest.onload = function() {
-let currentData = JSON.parse(currentRequest.responseText);
-console.log(currentData);
+    let currentData = JSON.parse(currentRequest.responseText);
+    console.log(currentData);
 
     document.getElementById('ltemp').innerHTML = currentData.list[0].main.temp;
     document.getElementById('lcurrent').innerHTML = currentData.list[0].weather[0].description;
-
+}
 let starRequest = new XMLHttpRequest();
 let apiURLstring2 = 'https://api.openweathermap.org/data/2.5/group?id=5315713&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
 starRequest.open('Get', apiURLstring2, true);
@@ -33,7 +33,7 @@ starRequest.onload = function() {
 
     document.getElementById('stemp').innerHTML = starData.list[0].main.temp;
     document.getElementById('scurrent').innerHTML = starData.list[0].weather[0].description;
-
+}
 let ogdenRequest = new XMLHttpRequest();
 let apiURLstring3 = 'https://api.openweathermap.org/data/2.5/group?id=5779036&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
 ogdenRequest.open('Get', apiURLstring3, true);

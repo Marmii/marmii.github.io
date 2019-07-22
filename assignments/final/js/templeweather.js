@@ -1,5 +1,5 @@
 let weatherRequest = new XMLHttpRequest();
-let apiURLstring = 'https://api.openweathermap.org/data/2.5/group?id=5771960,5476526,5315713,5779036&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/group?id=5771960&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
 weatherRequest.open('Get', apiURLstring, true);
 weatherRequest.send();
 
@@ -10,11 +10,39 @@ weatherRequest.onload = function() {
     document.getElementById('btemp').innerHTML = weatherData.list[0].main.temp;
     document.getElementById('bcurrent').innerHTML = weatherData.list[0].weather[0].description;
 
+let weatherRequest = new XMLHttpRequest();
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/group?id=5476526&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
+weatherRequest.open('Get', apiURLstring, true);
+weatherRequest.send();
+    
+weatherRequest.onload = function() {
+let weatherData = JSON.parse(weatherRequest.responseText);
+console.log(weatherData);
+
     document.getElementById('ltemp').innerHTML = weatherData.list[0].main.temp;
     document.getElementById('lcurrent').innerHTML = weatherData.list[0].weather[0].description;
 
+let weatherRequest = new XMLHttpRequest();
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/group?id=5315713&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
+weatherRequest.open('Get', apiURLstring, true);
+weatherRequest.send();
+    
+weatherRequest.onload = function() {
+    let weatherData = JSON.parse(weatherRequest.responseText);
+    console.log(weatherData);
+
     document.getElementById('stemp').innerHTML = weatherData.list[0].main.temp;
     document.getElementById('scurrent').innerHTML = weatherData.list[0].weather[0].description;
+
+let weatherRequest = new XMLHttpRequest();
+let apiURLstring = 'https://api.openweathermap.org/data/2.5/group?id=5779036&units=imperial&APPID=b6dcbfd399dcaf20477af22ae69192c2';
+weatherRequest.open('Get', apiURLstring, true);
+weatherRequest.send();
+    
+weatherRequest.onload = function() {
+    let weatherData = JSON.parse(weatherRequest.responseText);
+    console.log(weatherData);
+
 
     document.getElementById('otemp').innerHTML = weatherData.list[0].main.temp;
     document.getElementById('ocurrent').innerHTML = weatherData.list[0].weather[0].description;

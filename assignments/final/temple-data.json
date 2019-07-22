@@ -4,10 +4,10 @@
     "name": "Brigham City",
     "telephone": "435-695-2170",
     "address": 
-      "250 S Main St Brigham City UT 84302-2560 United States",
+      "250 S Main St \n Brigham City UT 84302-2560 United States",
       
     "yearDedicated": 2012,
-    "e-mail": "brighamtemple@email.com",
+    "mail": "brighamtemple@email.com",
     "services":
           "No clothing rental available No cafeteria available No patron housing available Distribution center nearby",
     
@@ -37,7 +37,7 @@
           "175 N 300 E Logan UT 84321-4720 United States",
           
         "yearDedicated": 1884,
-        "e-mail": "logantemple@email.com",
+        "mail": "logantemple@email.com",
         "services":
               "Clothing rental available Cafeteria available No patron housing available Distribution center nearby",
         
@@ -62,7 +62,7 @@
           "885 S Washington St Afton WY 83110 United States",
           
         "yearDedicated": 2016,
-        "e-mail": "starvalleytemple@email.com",
+        "mail": "starvalleytemple@email.com",
         "services":
               "No clothing rental available No cafeteria available No patron housing available Distribution center nearby",
         
@@ -82,7 +82,7 @@
           "350 22nd St Ogden UT 84401-1487 United States",
           
         "yearDedicated": "1972, Rededicated 2014", 
-        "e-mail": "Ogdentemple@email.com",
+        "email": "Ogdentemple@email.com",
         "services":
               "Clothing rental available Cafeteria available No patron housing available Distribution center nearby",
         

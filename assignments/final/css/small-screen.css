@@ -346,3 +346,8 @@ article iframe {
     border: 1px solid #3d535d;
     border-radius: .5rem;   
 }
+
+main div p {
+    font-size: 16px;
+    font-weight: bold;
+}

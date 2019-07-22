@@ -47,16 +47,12 @@
         flex-wrap: wrap;
     }
     
-
-
 article img {
     float: right;
     clear: right;
     width: 100%;
     margin: 20px 50px;
     box-shadow: 0 0 30px #777;
-}
-    
 }
 
 table, td, th {
@@ -143,5 +139,16 @@ form label.bottom {
     padding: 2em;
     color: white;
     margin: 0;
+}
+
+.missionarypics {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 5px 20px 5px;
+    box-shadow: 0 0 15px #887974;
+    grid-gap: .5px;
+    align-items: center;
+    background-color: #ebf6f2;
 }
 }

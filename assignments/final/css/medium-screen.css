@@ -146,4 +146,15 @@ th {
     grid-template-columns: 1fr 1fr;
     grid-gap: 2px;
 }
+
+.missionarypics {
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0px 5px 20px 5px;
+    box-shadow: 0 0 15px #887974;
+    grid-gap: .5px;
+    align-items: center;
+    background-color: #ebf6f2;
+}
 }

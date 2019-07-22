@@ -17,10 +17,10 @@ var info = jsonObj["temples"];
 
 for (var i = 0; i < info.length; i++) {
 
-    if(info[i].name == "BrighamCity" ||
+    if(info[i].name == "Brigham City" ||
           info[i].name == "Logan" ||
           info[i].name == "Ogden" ||
-          info[i].name == "StarValley") 
+          info[i].name == "Star Valley") 
           {
     /*var string = "";
     for (var j= 0; j< info[i].name.length; j++){

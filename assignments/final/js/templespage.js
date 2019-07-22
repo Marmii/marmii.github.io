@@ -36,7 +36,7 @@ for (var i = 0; i < info.length; i++) {
         
     var myArticle = document.createElement("article");
    
-    
+    console.log(myH2);
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
@@ -46,7 +46,7 @@ for (var i = 0; i < info.length; i++) {
     var myPara7 = document.createElement('p');
 
     
-    myPara1.textContent = "Telephon: " + info[i].telephone;
+    myPara1.textContent = "Telephone: " + info[i].telephone;
     myPara2.textContent = "Address: " + info[i].address;
     myPara3.textContent = "Year Dedicated: " + info[i].yearDedicated;
     myPara4.textContent = "E-mail: " + info[i].e-mail;

@@ -177,7 +177,7 @@ form label.bottom {
 } 
 
 form input.submit {
-    border: none;
+    border: 1px solid #3d535d;
     background-color: #99c9c9;
     color: #3d535d;
     border-radius: .5rem;
@@ -298,4 +298,16 @@ footer iframe {
     width: 50%;
     margin: 20px 50px;
     box-shadow: 0 0 30px #887974;
+}
+
+.servicebutton {
+    background-color: #3d535d;
+    font-size: 22px;
+    padding: 10px 10px;
+    border: 2px solid #887974;
+    display: flex;
+    max-height: 100px;
+    align-items: center;
+    margin: auto;
+    border-radius: 1rem;
 }

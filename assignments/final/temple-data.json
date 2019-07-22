@@ -1,7 +1,7 @@
 {
     "temples" : [
   {  
-    "name": "Brigham City Temple",
+    "name": "Brigham City",
     "telephone": "435-695-2170",
     "address": 
       "250 S Main St Brigham City UT 84302-2560 United States",
@@ -31,7 +31,7 @@
 
   
     { 
-        "name": "Logan Temple",
+        "name": "Logan",
         "telephone": "435-752-3611",
         "address": 
           "175 N 300 E Logan UT 84321-4720 United States",
@@ -56,7 +56,7 @@
       
         },
     {  
-        "name": "Star Valley Temple",
+        "name": "Star Valley",
         "telephone": "307-886-6820",
         "address": 
           "885 S Washington St Afton WY 83110 United States",
@@ -76,7 +76,7 @@
           ]
         },
         {  
-        "name": "Ogden Temple",
+        "name": "Ogden",
         "telephone": "801-621-6880",
         "address": 
           "350 22nd St Ogden UT 84401-1487 United States",

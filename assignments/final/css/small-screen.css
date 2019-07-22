@@ -183,7 +183,7 @@ form input.submit {
     color: #3d535d;
     border-radius: .5rem;
     padding: .75rem 1.5rem;
-    margin: 0 0 2rem 2%;
+    margin: 2rem 0 2rem 0;
     width: 96%;
     max-width: 20rem;
 }
@@ -322,4 +322,8 @@ footer iframe {
     grid-gap: .5px;
     align-items: center;
     background-color: #ebf6f2;
+}
+
+span img {
+    border-radius: .5rem;
 }

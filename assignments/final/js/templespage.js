@@ -17,17 +17,17 @@ var info = jsonObj["temples"];
 
 for (var i = 0; i < info.length; i++) {
 
-    if(info[i].name == "Brigham City" ||
+    if(info[i].name == "BrighamCity" ||
           info[i].name == "Logan" ||
           info[i].name == "Ogden" ||
-          info[i].name == "Star Valley") 
+          info[i].name == "StarValley") 
           {
-    var string = "";
+    /*var string = "";
     for (var j= 0; j< info[i].name.length; j++){
         if (info[i].name.charAt(j) != " "){
             string += info[i].name.charAt(j);
-        }
-    }            
+        }*/
+    }           
     console.log(string);
     var templename = document.getElementById(string);
     var myH2 = document.createElement('h2');

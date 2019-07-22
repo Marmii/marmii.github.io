@@ -4,7 +4,7 @@
     "name": "Brigham City",
     "telephone": "435-695-2170",
     "address": 
-      "250 S Main St \n Brigham City UT 84302-2560 United States",
+      "250 S Main St \n Brigham City UT 84302-2560 \n United States",
       
     "yearDedicated": 2012,
     "mail": "brighamtemple@email.com",
@@ -34,7 +34,7 @@
         "name": "Logan",
         "telephone": "435-752-3611",
         "address": 
-          "175 N 300 E Logan UT 84321-4720 United States",
+          "175 N 300 E \n Logan UT 84321-4720 \n United States",
           
         "yearDedicated": 1884,
         "mail": "logantemple@email.com",
@@ -59,7 +59,7 @@
         "name": "Star Valley",
         "telephone": "307-886-6820",
         "address": 
-          "885 S Washington St Afton WY 83110 United States",
+          "885 S Washington St \n Afton WY 83110 \n United States",
           
         "yearDedicated": 2016,
         "mail": "starvalleytemple@email.com",
@@ -79,7 +79,7 @@
         "name": "Ogden",
         "telephone": "801-621-6880",
         "address": 
-          "350 22nd St Ogden UT 84401-1487 United States",
+          "350 22nd St \n Ogden UT 84401-1487 \n United States",
           
         "yearDedicated": "1972, Rededicated 2014", 
         "email": "Ogdentemple@email.com",

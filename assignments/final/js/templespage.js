@@ -22,11 +22,11 @@ for (var i = 0; i < info.length; i++) {
           info[i].name == "Ogden" ||
           info[i].name == "Star Valley") 
           {
-    /*var string = "";
+    var string = "";
     for (var j= 0; j< info[i].name.length; j++){
         if (info[i].name.charAt(j) != " "){
             string += info[i].name.charAt(j);
-        }*/
+        }
     }           
     console.log(string);
     var templename = document.getElementById(string);

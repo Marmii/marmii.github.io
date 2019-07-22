@@ -41,9 +41,9 @@ for (var i = 0; i < info.length; i++) {
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
-    var myul = document.createElement('ul');
-    var myul2 = document.createElement('ul');
-    var myul3 = document.createElement('ul');
+    var myul = document.createElement('li');
+    var myul2 = document.createElement('li');
+    var myul3 = document.createElement('li');
 
     
     myPara1.textContent = "Telephone: " + info[i].telephone;
@@ -58,9 +58,9 @@ for (var i = 0; i < info.length; i++) {
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
-    myArticle.appendChild(myul);
-    myArticle.appendChild(myul2);
-    myArticle.appendChild(myul3);
+    ul.appendChild(myul);
+    ul.appendChild(myul2);
+    ul.appendChild(myul3);
 
     templename.appendChild(myArticle);
     

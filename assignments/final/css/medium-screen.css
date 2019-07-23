@@ -148,4 +148,15 @@ th {
     overflow: hidden;
 }
 
+.contact{
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 5px 20px 5px;
+    box-shadow: 0 0 15px #887974;
+    border: 5px solid #3d535d;
+    border-radius: 1rem;
+    flex-direction: row-reverse;
+}
+
 }

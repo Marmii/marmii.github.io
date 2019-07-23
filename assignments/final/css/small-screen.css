@@ -274,8 +274,8 @@ footer iframe {
 .servicesarticle {
     padding: 5px;
     display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     box-shadow: 0 0 15px #887974;
     margin: 10px;
     overflow: hidden;

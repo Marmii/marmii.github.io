@@ -303,7 +303,7 @@ footer iframe {
 }
 
 .missionarypics {
-    padding: 5px;
+    padding: 40px;
     display: grid;
     grid-template-columns: 1fr;
     margin: 0px 5px 20px 5px;
@@ -311,6 +311,7 @@ footer iframe {
     grid-gap: .5px;
     align-items: center;
     background-color: #ebf6f2;
+    margin: auto;
 }
 
 span img {

@@ -66,7 +66,7 @@ for (var i = 0; i < info.length; i++) {
 
     var ul = document.getElementById("calendar");
 
-    vartempleCalendar = info[i].closures;
+    var templeCalendar = info[i].closures;
     for(var j = 0; j < templeCalendar.length; j++) {
         var listItem = document.createElement('li');
         listItem.textContent = templeCalendar[j];

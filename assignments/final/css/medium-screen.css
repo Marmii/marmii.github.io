@@ -64,17 +64,6 @@ article img {
     box-shadow: 0 0 30px #777;
 }
 
-.heading5 {
-    display: inline-block;
-	vertical-align: middle;
-    margin: 10px;
-    color: #4d9ee0c0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    font-size: 40px;
-    
-}
-
 table, td, th {
     border: 1px solid black;
 }
@@ -122,24 +111,6 @@ th {
     float: left;
 }
 
-.gallery figure {
-    max-width: 300px;
-    max-height: 200px;
-}
-.gallery figure img{
-    max-width: 300px;
-}
-
-.gallery {
-    display:grid;
-    grid-template-rows: repeat(3, 2fr);
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: 200px;
-    grid-auto-rows: 180px;
-    column-gap: 2px;
-    row-gap: 2px;
-
-}
 
 .templeinfo {
     display:grid;
@@ -157,4 +128,13 @@ th {
     align-items: center;
     background-color: #ebf6f2;
 }
+
+.templearticle {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5px 20px 5px;
+    box-shadow: 0 0 15px #887974;
+}
+
 }

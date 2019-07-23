@@ -111,6 +111,7 @@ article img {
     justify-content: space-between;
     margin: 0px 5px 20px 5px;
     box-shadow: 0 0 15px #887974;
+    flex-direction: column;
 }
 
 .templeimage {
@@ -123,20 +124,6 @@ article img {
     clear: both;
 }
 
-figcaption {
-    text-align: center;
-    font-size: 1rem;
-}
-.gallery {
-    display:grid;
-    grid-template-rows: repeat(6, 5fr);
-    grid-auto-columns: 200px;
-    grid-auto-rows: 180px;
-    column-gap: 2px;
-    row-gap: 2px;
-    margin: 5px 0 75px 0;
-
-}
 
 /*----------CONTACT US PAGE--------*/
 form fieldset {
@@ -214,7 +201,7 @@ form label.top input:required:valid {
 
 #Logan, #StarValley, #BrighamCity, #Ogden {
     box-shadow: 0 0 30px #887974;
-    background-color: #99c9c9;
+    background-color: #ebf6f2;
     border: 3px solid #3d535d;
     border-radius: 5px 10px;
     padding: 0 10px 0 10px;
@@ -305,6 +292,7 @@ footer iframe {
 .servicebutton {
     background-color: #3d535d;
     font-size: 22px;
+    color: #f5c47b;
     padding: 10px 10px;
     border: 2px solid #887974;
     display: flex;

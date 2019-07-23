@@ -305,7 +305,7 @@ footer iframe {
 .missionarypics {
     padding: 5px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     margin: 0px 5px 20px 5px;
     box-shadow: 0 0 15px #887974;
     grid-gap: .5px;

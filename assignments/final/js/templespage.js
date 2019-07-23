@@ -35,7 +35,7 @@ for (var i = 0; i < info.length; i++) {
     templename.appendChild(myH2);
         
     var myArticle = document.createElement("article");
-   
+    var listItem = document.createElement("li");
     console.log(myH2);
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
@@ -58,9 +58,9 @@ for (var i = 0; i < info.length; i++) {
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
-    myul.appendChild(myul);
-    myul2.appendChild(myul2);
-    myul3.appendChild(myul3);
+    myul.appendChild(listItem);
+    myul2.appendChild(listItem);
+    myul3.appendChild(listItem);
 
     templename.appendChild(myArticle);
     

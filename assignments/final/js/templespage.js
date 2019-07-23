@@ -35,32 +35,32 @@ for (var i = 0; i < info.length; i++) {
     templename.appendChild(myH2);
         
     var myArticle = document.createElement("article");
-    var listItem = document.createElement("li");
+    
     console.log(myH2);
     var myPara1 = document.createElement('p');
     var myPara2 = document.createElement('p');
     var myPara3 = document.createElement('p');
     var myPara4 = document.createElement('p');
-    var myul = document.createElement('li');
-    var myul2 = document.createElement('li');
-    var myul3 = document.createElement('li');
+    var myPara5 = document.createElement('p');
+    var myPara6 = document.createElement('p');
+    var myPara7 = document.createElement('p');
 
     
     myPara1.textContent = "Telephone: " + info[i].telephone;
     myPara2.textContent = "Address: " + info[i].address;
     myPara3.textContent = "Year Dedicated: " + info[i].yearDedicated;
     myPara4.textContent = "E-mail: " + info[i].mail;
-    myul.textContent = "Services: " + info[i].services;
-    myul2.textContent = "Schedule: " + info[i].schedule;
-    myul3.textContent = "Upcoming Closures: " + info[i].closures;
+    myPara5.textContent = "Services: " + info[i].services;
+    myPara6.textContent = "Schedule: " + info[i].schedule;
+    myPara7.textContent = "Upcoming Closures: " + info[i].closures;
     
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
-    myul.appendChild(listItem);
-    myul2.appendChild(listItem);
-    myul3.appendChild(listItem);
+    myArticle.appendChild(myPara5);
+    myArticle.appendChild(myPara6);
+    myArticle.appendChild(myPara7);
 
     templename.appendChild(myArticle);
     

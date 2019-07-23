@@ -63,6 +63,15 @@ for (var i = 0; i < info.length; i++) {
     myArticle.appendChild(myPara7);
 
     templename.appendChild(myArticle);
+
+    var ul = document.getElementById("calendar");
+
+    vartempleCalendar = info[i].closures;
+    for(var j = 0; j < templeCalendar.length; j++) {
+        var listItem = document.createElement('li');
+        listItem.textContent = templeCalendar[j];
+    ul.appendChild(listItem);
+    }
     
     
 

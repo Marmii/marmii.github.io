@@ -58,9 +58,9 @@ for (var i = 0; i < info.length; i++) {
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
     myArticle.appendChild(myPara4);
-    ul.appendChild(myul);
-    ul.appendChild(myul2);
-    ul.appendChild(myul3);
+    myul.appendChild(myul);
+    myul2.appendChild(myul2);
+    myul3.appendChild(myul3);
 
     templename.appendChild(myArticle);
     

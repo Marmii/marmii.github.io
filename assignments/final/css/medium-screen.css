@@ -132,9 +132,10 @@ th {
 .templearticle {
     padding: 5px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 0px 5px 20px 5px;
     box-shadow: 0 0 15px #887974;
+    flex-direction: row;
 }
 
 .servicesarticle {
